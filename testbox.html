@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="style/jquery.ui.all.css" rel="stylesheet" type="text/css"/>
+  <script src="script/jquery.js"></script>
+  <script src="script/jquery-ui-1.8.7.custom.js"></script>
+  
+  <script>
+  $(document).ready(function() {
+    $("input#autocomplete").autocomplete({
+    source: ["c++", "java", "php", "coldfusion", "javascript", "asp", "ruby"]
+});
+  });
+  </script>
+</head>
+<body style="font-size:62.5%;">
+  
+<input id="autocomplete" />
+
+</body>
+</html>

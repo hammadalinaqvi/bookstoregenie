@@ -1,0 +1,86 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Bookstore genie | Buyback</title> 
+  	<meta name="csrf-param" content="authenticity_token"/> 
+	<meta name="csrf-token" content="uK5etSng8pH2YFKgokG0J+cjQ8cpwAj57fkTw0tG8vE="/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- jquery script -->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+	
+	<!-- general style -->
+		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
+	
+	<!-- navigation style + script -->
+		<link rel='stylesheet' href='css/navigation.css'>
+		<script src='js/navigation.js'></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	<!-- carousel gallery -->		
+	    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+    
+    <!-- Google Fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo|Questrial|Istok+Web|Quattrocento+Sans:400,700"  type="text/css" />
+		
+	<!-- tweets -->
+		<script type="text/javascript" src="js/mylatesttweets.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/my_lat_tweets.css" />
+		
+</head>
+ 
+<body>
+	
+		<div class="left-col stepFour">
+			<h2>Payment & Address:</h2>
+			
+			<form>
+				<label for="university">
+					<strong>University:</strong>
+					<input type="text" name="university" />
+				</label>
+				<label for="name">
+					<strong>Name:</strong>
+					<input type="text" name="name" />
+				</label>
+				<label for="state">
+					<strong>Address</strong>
+					<input type="text" name="state" value="State"  onClick="(this.value='')" class="state"/>
+					<input type="text" name="city" value="City"  onClick="(this.value='')" class="city"/>
+					<input type="text" name="zip" value="Zip Code"  onClick="(this.value='')" class="zip"/>
+				</label>
+				
+				<div class="payment">
+					<div class="poption">
+						<label for="paypal" class="it"><input type="radio" name="paypal" />Check</label>
+						<label for="cstate" class="in">
+							<strong>Address:</strong>
+							<input type="text" name="cstate" value="State"  onClick="(this.value='')" class="state"/>
+							<input type="text" name="city" value="City"  onClick="(this.value='')" class="city"/>
+							<input type="text" name="zip" value="Zip Code"  onClick="(this.value='')" class="zip"/>
+						</label>
+					</div>
+				</div>
+				
+				<label for="buyback">
+					<strong>Buyback Cupon Code:</strong>
+					<input type="text" name="buyback" />
+				</label>
+				
+				<strong>Terms & Conditions:</strong>
+				<label for="terms" class="terms">
+					<input type="checkbox" name="terms" /> I have read and agree to the <a href="#">Buyback Terms & Conditions</a>
+				</label>
+			
+				<input type="submit" value="Send my check" class="submit" />
+			
+			</form>
+			
+		</div> <!-- end left col -->
+	
+</body> 
+</html> 

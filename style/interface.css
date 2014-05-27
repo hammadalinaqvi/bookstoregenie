@@ -1,0 +1,29 @@
+#interface{
+	background-color: #ffffff;
+	width: 700px;
+}
+
+.interfaceTitle{
+	color: #6888b2;
+	font-weight: bold;
+	font-size: 20px;
+	font: Arial;
+}
+.interfaceContainer{
+	float: left;
+	width: 175px;
+	height: 500px;
+	overflow: auto;
+}
+.dataRow{
+	width: 175px;
+	background-color: #FFFFFF;
+	height: 50px;
+	cursor: pointer;
+}
+.dataClicked{
+	width: 175px;
+	background-color: blue;
+	height: 50px;
+	cursor: pointer;
+}

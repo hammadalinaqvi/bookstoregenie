@@ -1,0 +1,172 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bookstore Genie</title>
+<!--<script src = "http://www.bookstoregenie.com/script/prototype.js" language="javascript" type="text/javascript"></script>-->
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel = "stylesheet" type = "text/css" href = "http://www.bookstoregenie.com/style/main.css" />
+<script language="javascript" type="text/javascript" src="http://www.bookstoregenie.com/script/autocomplete.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js" type="text/javascript"></script>
+ <script src="http://www.bookstoregenie.com/script/combobox.js"></script>
+<script src = "http://www.bookstoregenie.com/script/jquery.dropshadow.js" type = "text/javascript"></script>
+<script src = "http://www.bookstoregenie.com/script/jquery.loading.1.6.4.js" type = "text/javascript"></script>
+<link rel="SHORTCUT ICON" type = "image/x-icon" href="http://www.bookstoregenie.com/images/genie.ico"/>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15548470-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+var trackingName = "farhan";
+</script>
+<link rel = "stylesheet" type = "text/css" href = "http://www.bookstoregenie.com/style/jquery.loading.1.6.css" /><!--[if lte IE 7]>
+<style>
+#interfaceContainer{
+	background-image: url(http://www.bookstoregenie.com/images/interfacebg.png);
+	width: 928px;
+	height: 286px;
+	text-align: left;
+	font-family: Arial;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#isbnContainer{
+	background-image: url(http://www.bookstoregenie.com/images/isbnbg.png);
+	width: 928px;
+	height: 170px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+}
+#search{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	border: none transparent;
+	width: 620px;
+	height: 34px;
+	float: left;
+	position: relative;
+	z-index: 10;
+	padding-left: 10px;
+	position: relative;
+	left: -60px;
+}
+</style>
+<![endif]-->
+ <script type="text/javascript">
+            window.onload = function () {
+              //  var oTextbox = new AutoSuggestControl(document.getElementById("search"), new StateSuggestions());
+            }
+        </script>
+</head>
+<script type = "text/javascript" src = "http://www.bookstoregenie.com/index.js"></script>
+<body>
+<script type="text/javascript">
+window.Meebo||function(c){function p(){return["<",i,' onload="var d=',g,";d.getElementsByTagName('head')[0].",
+j,"(d.",h,"('script')).",k,"='//cim.meebo.com/cim?iv=",a.v,"&",q,"=",c[q],c[l]?
+"&"+l+"="+c[l]:"",c[e]?"&"+e+"="+c[e]:"","'\"></",i,">"].join("")}var f=window,
+a=f.Meebo=f.Meebo||function(){(a._=a._||[]).push(arguments)},d=document,i="body",
+m=d[i],r;if(!m){r=arguments.callee;return setTimeout(function(){r(c)},100)}a.$=
+{0:+new Date};a.T=function(u){a.$[u]=new Date-a.$[0]};a.v=4;var j="appendChild",
+h="createElement",k="src",l="lang",q="network",e="domain",n=d[h]("div"),v=n[j](d[h]("m")),
+b=d[h]("iframe"),g="document",o,s=function(){a.T("load");a("load")};f.addEventListener?
+f.addEventListener("load",s,false):f.attachEvent("onload",s);n.style.display="none";
+m.insertBefore(n,m.firstChild).id="meebo";b.frameBorder="0";b.id="meebo-iframe";
+b.allowTransparency="true";v[j](b);try{b.contentWindow[g].open()}catch(w){c[e]=
+d[e];o="javascript:var d="+g+".open();d.domain='"+d.domain+"';";b[k]=o+"void(0);"}try{var t=
+b.contentWindow[g];t.write(p());t.close()}catch(x){b[k]=o+'d.write("'+p().replace(/"/g,
+'\\"')+'");d.close();'}a.T(1)}({network:"bookstoregenie_qi82pa"});
+</script>
+<div id = "bg"><img id = "background_image" src = "http://www.bookstoregenie.com/images/background.png" width = "100%" height = "100%" /></div>
+
+	<div id = "wrapper">
+    	<div id = "header">
+       <img id = "logo_img" src = "http://www.bookstoregenie.com/images/logo.png" />
+           	<!--<img id = "nav_img" src = "http://www.bookstoregenie.com/images/nav.png" usemap = "#nav_map" border = "0" />-->
+		<map name = "nav_map">
+		  <area shape = "rect" coords = "0,0,57,16" href = "http://www.bookstoregenie.com/index.html">
+		  <area shape = "rect" coords = "57,0,144,16" href = "http://www.bookstoregenie.com/about.html">
+		</map>
+        </div>
+        <div id = "update"></div>
+        <div id = "content">
+        	<ol id = "content_top" class = "content_list">
+        		<li class = "content_list_item"><img id = "genie" src = "http://www.bookstoregenie.com/images/genie.png" /></li>
+            	<li class = "content_list_item"><img id = "bubble" src = "http://www.bookstoregenie.com/images/bubble.png" /></li>
+            </ol>
+            <ol id = "content_bottom_index" class = "content_list">
+            	<li id = "search_item" class = ""><div id = "searchContainer" class = "text"><input id = "search" onfocus = "clearUniversity()" type = "text" title = "Search your University!" value = "Type in your University"></input></div>
+					<img id = "goImg" class = "hand" src = "http://www.bookstoregenie.com/images/next_step.png" onClick = "goClick()" />
+					<div id = "popSearches">Popular Searches: "<span class = "popular hand" onClick = "changeSearch('George Washington University')">George Washington University</span>", "<span class = "popular hand" onClick = "changeSearch('Emory University')">Emory</span>", "<span class = "popular hand" onClick = "changeSearch('Berkeley')">Berkeley</span>"</div>
+				</li>
+				<li class = "isbns"><img class = "already" src = "http://www.bookstoregenie.com/images/already.png" /><img class = "isbn_btn hand" src = "http://www.bookstoregenie.com/images/search.png" onClick = "isbnGo()" /></li>
+            </ol>
+			<div id = "interfaceContainer" style = "display: none;" class = "content_list">
+				<div id = "university"></div>
+				<ol id = "interface"> 
+					<li id = "department_box" class = "interface_box" style = "display:none"><select id = "department_select" class = "combobox">
+					</select></li>
+					<li id = "course_box" class = "interface_box" style = "display:none"><select id = "course_select" class = "combobox">
+								
+					</select></li><li class = "interface_box_grey"><img class = "grey_box" id = "selectcoursebox_grey" src = "http://www.bookstoregenie.com/images/selectcourse_grey.png" /></li>
+					<li id = "section_box" class = "interface_box" style = "display:none"><select id = "section_select" class = "combobox">
+					</select></li><li class = "interface_box"><img class = "grey_box" id = "selectsectionbox_grey" src = "http://www.bookstoregenie.com/images/selectsection_grey.png" /></li>
+					<li style = "width: 158px;" class = "interface_box"><img class = "hand" id = "addCourse_btn" onclick = "addCourse()" src = "http://www.bookstoregenie.com/images/add_course.png" /></li>
+				</ol>
+				<ol style = "display: none" id = "courses">
+					<li id = "youCourses">My courses</li>
+					<li id = "courseList"></li>
+				</ol>
+				<img id = "search_btn" onClick = "interfaceGo()" style = "display:none" class = "hand" src = "http://www.bookstoregenie.com/images/searchbtn.png" />
+				<!--<div class = "isbns"><img class = "already" src = "http://www.bookstoregenie.com/images/already.png" /><img class = "isbn_btn" src = "http://www.bookstoregenie.com/images/search.png" onClick = "isbnGo()" /></div>-->
+			</div>  
+			<div id = "isbnContainer" style = "display:none;" class = "">
+				<div id = "isbnIntro"> </div>
+				<div style = "float: left"><input id = "isbnInput" onClick = "isbnInputClicked()" value = "Type your ISBN's here"></input></div> <img id = "searchBooks" class = "hand" onClick = "isbnTransfer()" src = "http://www.bookstoregenie.com/images/searchbooks.png" />
+			</div>
+			<ol id = "buyAllContainer" style = "display:none;" class = "content_list">
+				<li id = 'buyAllLeft' style = "float: left;"><img src = "http://www.bookstoregenie.com/images/buyall_left.png" /></li>
+				<li id = 'buyAllRight' style = "float: left;"><img src = "http://www.bookstoregenie.com/images/buyall_right.png" /></li>
+			</ol>
+			<ul id = "widgetContainer" style = "display: none" class = "content_list">
+				<li id = "widgetHeader"></li>
+				<li id = "widgetBottom"></li>
+			</ul>
+        </div>
+    	<div id = "footer">
+    		<img src = "http://www.bookstoregenie.com/images/footer.png" />
+   		</div>
+	</div>
+<script type="text/javascript">
+var _sf_async_config={uid:17535,domain:"bookstoregenie.com"};
+(function(){
+  function loadChartbeat() {
+    window._sf_endpt=(new Date()).getTime();
+    var e = document.createElement('script');
+    e.setAttribute('language', 'javascript');
+    e.setAttribute('type', 'text/javascript');
+    e.setAttribute('src',
+       (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+       "js/chartbeat.js");
+    document.body.appendChild(e);
+  }
+  var oldonload = window.onload;
+  window.onload = (typeof window.onload != 'function') ?
+     loadChartbeat : function() { oldonload(); loadChartbeat(); };
+})();
+ Meebo("domReady");
+ $("#search").val("George Washington University");
+ goClick();
+</script>
+</body>
+</html>

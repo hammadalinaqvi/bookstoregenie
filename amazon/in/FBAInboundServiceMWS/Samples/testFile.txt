@@ -1,0 +1,1 @@
+This is the webhook file for Mandrill. DO NOT DELETE IT.

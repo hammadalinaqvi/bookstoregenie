@@ -1,0 +1,46 @@
+$(function () {
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+//////////////////////////////////////////////////////////////////////////	
+// ADD THE TRIGGER OF THE TOOLTIPS
+//////////////////////////////////////////////////////////////////////////
+	$(".hasTip").tipTip();
+
+
+
+//////////////////////////////////////////////////////////////////////////	
+// TOGGLES - Tutorial by Soh Tanaka - http://www.sohtanaka.com/web-design/easy-toggle-jquery-tutorial/
+//////////////////////////////////////////////////////////////////////////	
+
+	//Hide (Collapse) the toggle containers on load
+	$(".toggle_container").hide(); 
+
+	//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+	$(".tgg-trigger").click(function(){
+		$(this).toggleClass("active").next().slideToggle("slow");
+		return false; //Prevent the browser jump to the link anchor
+	});
+	
+	
+//////////////////////////////////////////////////////////////////////////	
+// ADD ODD CLASS TO ROWS
+//////////////////////////////////////////////////////////////////////////	
+	
+	$(".zebra-style tr:odd, .faq-style .tgg-trigger:odd").addClass("odd");
+
+
+})// end of window load
+
+

@@ -1,0 +1,232 @@
+/* Custom Styles for Bookstoregenie */
+
+/*  Color Palatte 
+
+background: #f7fdff
+
+light blue: #d7e6eb
+
+dark blue: #49a0bd
+
+light grey: #4d4c4d
+
+dark grey: #333333
+
+ 
+assets/img/dropdown.png
+
+
+*/
+
+body{background: #f7fdff !important;}
+
+.container{
+	width: 960px;
+}
+
+/* Typography */
+
+.money-green{
+	display: inline;
+	color: #4fa25e !important;
+}
+.dark-blue{
+	color: #49a0bd !important;
+}
+.deep-red{
+	font-size: 12px;
+	color: #a26b51 !important;
+}
+.deep-red a{
+	color: #a26b51 !important;
+	text-decoration: underline;
+}
+
+/* end type */
+
+.navbar-inverse .navbar-inner {
+	background-color: transparent!important;
+  background: url("../images/classy_fabric.png")!important;
+  border-bottom: 2px;
+  border-color: #000;
+}
+
+.stepTwo{
+	margin-top: 40px;
+}
+
+.navbar .nav {
+	margin: 21px 10px 0 0;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+color: white;
+background-color: transparent;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
+box-shadow: none;
+}
+
+.droppy{
+	margin: 26px 0 0 0;
+	float: right;
+}
+
+.bsg-badge{
+	background: #96c89f;
+	border: 3px solid #2c2c2d;
+	color: #26462b;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+	top: 32px;
+	padding: 3px 7px 4px;
+	margin: -20px 0 0;
+	position: absolute;
+	-webkit-border-radius: 20px;
+		 -moz-border-radius: 20px;
+		 			border-radius: 20px;
+}
+
+.blue_well, .white_well{
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+	   			border-radius: 4px;
+}
+
+.white_well{
+	width: 300px;
+	background: #fff;
+	border: 1px solid #ddd;
+	padding: 20px 35px;
+	margin: 40px 0 0 0;
+	position: fixed;
+	top:100px;
+}
+
+.blue_well{
+	background: #d7e6eb;
+	border: 1px solid #49a0bd;
+	padding: 12px;
+}
+
+.top-field{
+	margin-top: 20px!important;
+	margin-bottom: 0px!important;
+}
+
+.form-search .input-append .search-query {
+	-webkit-border-radius: 20px 0 0 20px;
+		 -moz-border-radius: 20px 0 0 20px;
+		 			border-radius: 20px 0 0 20px;
+}
+
+.form-search .input-append .btn {
+	-webkit-border-radius: 0 20px 20px 0;
+		 -moz-border-radius: 0 20px 20px 0;
+		 			border-radius: 0 20px 20px 0;
+}
+
+.remove{
+	float: right;
+	font-size: 12px;
+	line-height: 12px;
+	color: #F53;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	background-color: white;
+	border: 1px solid #49a0bd;
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	   -moz-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+	        box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+}
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+	display: inline-block;
+	height: 34px;
+	padding: 4px 8px;
+	margin-bottom: 17px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	vertical-align: middle;
+}      
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #4d4c4d;
+  font-weight: 900;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #4d4c4d;
+  font-weight: 900;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #4d4c4d;
+  font-weight: 900;
+}
+
+.field-push-right{
+	margin-right: 10px !important;
+}
+
+.has-js .label_check,
+.has-js .label_radio { padding-left: 34px; }
+.has-js .label_radio { background: url(../assets/radio-off.png) no-repeat; }
+.has-js .label_check { background: url(../assets/check-off.png) no-repeat; }
+.has-js label.c_on { background: url(../assets/check-on.png) no-repeat; }
+.has-js label.r_on { background: url(../assets/radio-on.png) no-repeat; }
+.has-js .label_check input,
+.has-js .label_radio input { position: absolute; left: -9999px; }
+
+.bsg-btn {
+	-moz-box-shadow:inset 0px 1px 2px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 2px 0px #ffffff;
+	box-shadow:inset 0px 1px 2px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #94def5), color-stop(1, #94def5) );
+	background:-moz-linear-gradient( center top, #94def5 5%, #94def5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#94def5', endColorstr='#94def5');
+	background-color:#94def5;
+	   -moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	        border-radius:30px;
+	border:1px solid #3f7c90;
+	display:inline-block;
+	color:#333333;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:11px 18px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+}
+
+.bsg-btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #94def5), color-stop(1, #94def5) );
+	background:-moz-linear-gradient( center top, #94def5 5%, #94def5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#94def5', endColorstr='#94def5');
+	background-color:#94def5;
+}
+
+.bsg-btn:active {
+	position:relative;
+	top:1px;
+}
+
+/* trump bootstrap */
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+display: inline-block;
+height: 34px;
+}
+
+.btn {
+display: inline-block;
+padding: 11px 14px;
+}
+
+input.span7, textarea.span7, .uneditable-input.span7 {
+width: 522px;
+}

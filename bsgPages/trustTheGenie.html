@@ -1,0 +1,192 @@
+ <!DOCTYPE html> 
+<html> 
+<head> 
+<title>Bookstore genie | Trust the Genie</title> 
+  	<meta name="csrf-param" content="authenticity_token"/> 
+	<meta name="csrf-token" content="uK5etSng8pH2YFKgokG0J+cjQ8cpwAj57fkTw0tG8vE="/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- jquery script -->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+	
+	<!-- general style -->
+		<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
+	
+	<!-- navigation style + script -->
+		<link rel='stylesheet' href='css/navigation.css'>
+		<script src='js/navigation.js'></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	<!-- carousel gallery -->		
+	    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.jscrollpane.css" media="all" />
+    
+    <!-- Google Fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo|Questrial|Istok+Web|Quattrocento+Sans:400,700"  type="text/css" />
+		
+	<!-- tweets -->
+		<script type="text/javascript" src="js/mylatesttweets.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/my_lat_tweets.css" />
+		
+</head>
+ 
+<body class="in" onload="setCookie('results','(0073527114,0,1);','10'); updateTotal();"> 
+	
+	<div class="header"> <!-- begin header -->
+	
+		<div class="innerHeader"> <!-- begin inner header -->
+		
+		<a href="http://www.bookstoregenie.com" title="BookStoreGenie"><div class="topLogo"></div></a> 
+			
+			<div class="nav-wrap">
+				<ul class="group" id="example-one">
+		            <li><a href="about.html">About Us</a></li>
+		            <li><a href="../rent/index.php">Rent Now</a></li>
+		            <li class="current_page_item"><a href="trustTheGenie.html">Trust the Genie</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		            <li><a href="beAgenie.html">Be a Genie</a></li>
+		        </ul>
+		    </div> 
+			
+		</div> <!-- end inner header -->
+			
+	</div> <!-- end header -->
+ 	
+		<div class="heading"> <!-- begin heading --> 
+		
+			<div class="breadcrumbs">  <!-- begin breadcrumbs -->
+				<a href="http://www.bookstoregenie.com" title="Homepage">Homepage</a> &raquo Trust the genie
+			</div> <!-- end breadcrumbs -->
+			
+		</div> <!-- end heading -->
+			
+	<div class="wrap"> <!-- begin wrap -->
+	
+		<div class="left-col-600">
+			
+			<h1>Trust the Genie®</h1>
+			
+			<h2><span>Trust the Genie is more than a tagline.  It defines our commitments. </span></h2>
+			<p>Central to our commitment is price transparency.  The Trust The Genie® price comparison tool gives students the transparency that our competitors wouldn’t dare reveal.  It makes sure that you can be certain that you’re paying the absolute lowest price for a book before you rent it!   We allow you to compare our price for any given textbook with that of our competitors…all so you can get the best deal on that textbook, even if you don’t end up buying from us.</p>
+			<p>At Bookstore Genie, we are motivated by the many victories students experience when saving money through textbook rentals.  As an organization started BY and FOR students, we are familiar with the frustration of paying a lot for a textbook we may never use again.  We are familiar with the frustration of buyback programs that give us pennies on the dollar.</p>
+			<p>With textbook publishers and college bookstores providing students few options for savings, we believe in introducing meaningful choice -- choice that saves students money.  With the continued rising cost of textbooks, we believe renting is a smart alternative.</p>
+			
+			<h2>Our commitment includes:</h2>
+				<ul>
+					<span>
+					<li>&#183; Investing in technologies that make it quick and easy for students to rent and buy textbooks at lost cost.</li>
+					<li>&#183; Being responsive to all inquiries, complaints or concerns.</li>
+					<li>&#183; Treating all of our customers as individuals with respect.</li>
+					<li>&#183; Listening to your ideas so that we can improve our services and benefits for students.</li>
+					<li>&#183; Always believing there are more savings to be made for our customers.</li>
+					</span>
+				</ul>
+			
+			<p>If ever you have a question, compliment or complaint, don’t ever hesitate to contact us directly  - any time day or night.  After all, we are genies, we don’t sleep.</p>
+ 
+			<p><span>We practice what we preach.  Trust the Genie.</span></p>
+					
+		</div> <!-- end left col -->
+		
+		<div class="right-col-300">
+			<!--box twitter-->
+			<div id="mylasttweets" class="mylasttweets">
+			<ul id="twitter_content"><div id="twitter_entries"><li>Loading...</li></div></ul>
+			</div>
+			
+			<script type="text/javascript" src="mylatesttweets.js"></script>
+			<script type="text/javascript">
+			var twitter;
+			YAHOO.util.Event.onDOMReady(
+				function() {
+					window.twitter_callback_search = function (twitter_object) {
+						twitter.CallBack(twitter_object);
+					};
+					if (twitter == undefined) {
+						twitter = new MyLatestTweets('twitter');
+					}
+			
+					//Settings: ###########################
+					twitter.SearchTag = 'from:simienap';
+					twitter.MaxResultsNumber = 5;
+			//		if you want to set the language, just delete the "//" in the next line:
+					twitter.Language = 'en';
+					//Settings End. ###########################
+					
+					twitter.TwitterCall(undefined, '', 'twitter_callback_search');
+			});
+			</script>
+		
+		</div><!-- end left col -->
+		
+		<div style="clear:both;"></div> 
+				
+	</div> <!-- end wrap -->
+	
+		<div class="footer">  <!-- begin footer -->
+		
+		<a href="http://www.bookstoregenie.com" title="BookStoreGenie" id="footerLogo">BookStoreGenie</a> 
+		
+			<ul> 
+				<li><a href="about.html">About Us</a></li> 
+				<li><a href="#" title="Sell Books">Sell Books</a></li> 
+				<li><a href="#" title="Buy Books">Buy Books</a></li> 
+				<li><a href="#" title="">Terms of Privacy</a></li> 
+				<li><a href="#" title="">Terms and Conditions</a></li> 
+			</ul> 
+			
+			<div style="clear:both;"></div> 
+			
+		</div> <!-- end footer -->
+ 
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- the jScrollPane script -->
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+	<script type="text/javascript">
+		$('#ca-container').contentcarousel();
+	</script>
+	
+	<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.1/zenbox.js"></script>
+	<style type="text/css" media="screen, projection">
+	  @import url(//asset0.zendesk.com/external/zenbox/v2.1/zenbox.css);
+	</style>
+	<script type="text/javascript">
+	  if (typeof(Zenbox) !== "undefined") {
+	    Zenbox.init({
+	      dropboxID:   "20019273",
+	      url:         "https://bookstoregenie.zendesk.com",
+	      tabID:       "support",
+	      tabColor:    "blue",
+	      tabPosition: "Right"
+	    });
+	  }
+	</script>
+		
+	
+	<!-- begin olark code -->
+	<script type='text/javascript'>/*{literal}<![CDATA[*/window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length; while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])} c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d); (function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onl'+'oad="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"} D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return "static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('1395-504-10-7822');/*]]>{/literal}*/</script>
+<!-- end olark code -->
+
+	<script type="text/javascript">
+	    var GoSquared={};
+	    GoSquared.acct = "GSN-024018-M";
+	    (function(w){
+	        function gs(){
+	            w._gstc_lt=+(new Date); var d=document;
+	            var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+	            var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+	        }
+	        w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+	    })(window);
+	</script>
+	
+</body> 
+</html> 

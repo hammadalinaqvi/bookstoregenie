@@ -1,0 +1,4 @@
+[01-Feb-2011 15:17:10] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/maintenance/departments.php on line 21
+[17-Mar-2011 23:14:52] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/maintenance/import_follet.php on line 8
+[09-Jun-2011 15:36:29] PHP Parse error:  syntax error, unexpected '{' in /home/jteplitz/public_html/maintenance/duplicate.php on line 7
+[09-Jun-2011 16:14:18] PHP Parse error:  syntax error, unexpected '[' in /home/jteplitz/public_html/maintenance/duplicate.php on line 22

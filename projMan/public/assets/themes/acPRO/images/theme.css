@@ -1,0 +1,736 @@
+body {
+	background: #e5e5e5;
+}
+
+a {
+	color: #333;
+}
+
+
+/*******************************************************************************
+  Classes
+*******************************************************************************/
+
+.details {
+  color: #999;
+}
+
+.details a {
+  color: #666 !important;
+}
+
+/*******************************************************************************
+  Buttons
+*******************************************************************************/
+
+button {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/bg_button_a.gif') no-repeat scroll top right;
+  color: #fff;
+  display: block;
+  float:   left;
+  height: 24px;
+  margin-right: 6px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 10px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button, x:-moz-any-link {
+  padding-right: 8px !important;
+}
+
+button.default {
+  font-weight: bold !important;
+}
+
+button span {
+  background: transparent url('images/bg_button_span.gif') no-repeat;
+  display: block;
+  line-height: 14px;
+  padding: 5px 8px 5px 20px;
+  outline: none !important;
+}
+
+/* FIREFOX FIX */
+button span, x:-moz-any-link {
+  position: relative;
+  top: -1px;
+}
+
+button:hover {
+  background-position: right center;
+}
+
+
+button:hover span {
+  background-position: left center;
+}
+
+button.simple {
+  float: none !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 82px;
+  background: #FFF url('images/bg_button_simple.gif') no-repeat;
+  display: inline !important;
+}
+
+* html button.simple {
+  margin-left: 4px !important;
+  position: relative;
+  top: 1px;
+}
+
+button.simple:hover {
+  background-position: center center;
+}
+
+.button_disabled {
+  opacity: 0.5;
+}
+
+.button_disabled:hover {
+  background-position: left top !important;
+}
+
+a.button {
+  border: 0px;
+  background: transparent url('images/bg_button_a.gif') no-repeat scroll top right;
+  color: #fff;
+  display: block;
+  float: left;
+  height: 24px;
+  margin-right: 6px;
+  padding-right: 12px; /* sliding doors padding */
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 10px;
+  outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button.default {
+  font-weight: bold !important;
+}
+
+a.button span {
+    background: transparent url('images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 12px;
+}
+
+* html a.button span {
+   padding: 5px 0 6px 12px;
+}
+
+a.button:hover {
+  background-position: right center;
+}
+
+
+a.button:hover span {
+  background-position: left center;
+}
+
+a.button span img {
+	margin-left: 2px;
+}
+
+/*******************************************************************************
+  Construction
+*******************************************************************************/
+
+#top {
+	background: #9b0000 url('images/main_header.gif') repeat-x top left;
+}
+
+#logged_user {
+ 	color: #FFF;
+}
+
+#logged_user .inner {
+
+}
+
+
+#logged_user a {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+#logged_user a:hover {
+	text-decoration: none;
+}
+
+#header {
+	background:url('images/main_header_body.gif') no-repeat top left;
+	border: 0px;
+}
+
+#menu ul.group li a {
+	background:url('images/navigation_background.gif') repeat-x top left;
+}
+
+#menu ul.group li.first a {
+	background:url('images/navigation_background_first.gif') no-repeat top left;
+}
+
+#menu ul.group li.last a {
+	background:url('images/navigation_background_last.gif') no-repeat top right;
+}
+
+#menu ul.group li.last a span.inner {
+	border: none !important;
+}
+
+#menu ul.group li a:hover {
+	background-position: bottom left;
+	text-decoration: none;
+}
+
+#menu ul.group li.last a:hover {
+	background-position: bottom right;
+}
+
+#menu ul.group li a span.inner {
+
+}
+
+#menu ul.group li a:hover span.inner {
+
+}
+
+#menu .additional a span {
+
+}
+
+#menu ul.group li.single a {
+  background:url('images/navigation_background_first.gif') no-repeat top left;
+}
+
+#menu ul.group li.single a span.outer {
+	background: url('images/navigation_background_last.gif') no-repeat right top !important;
+}
+
+#menu ul.group li.single a span.inner {
+  border:none !important;
+}
+
+#menu ul.group li.single a:hover {
+	background-position: bottom left !important;
+}
+
+#menu ul.group li.single a:hover span.outer {
+	background-position: bottom right !important;
+}
+
+#menu ul.group #searchForm {
+	background:url('images/navigation_background_first.gif') no-repeat top left;
+}
+
+#menu ul.group #searchForm .inner {
+	background: url('images/navigation_background_last.gif') no-repeat right top;
+}
+
+#menu ul.group #searchForm input.text {
+	border: 1px solid #bfbd82;
+}
+
+#menu ul.group #searchForm button {
+	border: none;
+	color: #950000;
+}
+
+#menu ul.group #searchForm button span {
+  background: none !important;
+  padding: 0px !important;
+}
+
+/*******************************************************************************
+  TABS
+*******************************************************************************/
+#tabs {
+	background: #AA1A1A url('images/main_tabs_background.gif') repeat-x left bottom;
+}
+
+#tabs .container {
+	background:url('images/main_tabs_container.gif') repeat-x left top;
+	border-bottom: none;
+}
+
+#tabs ul li a {
+	background: url('images/main_tab_left.gif') no-repeat left top;
+	color: #fff;
+	border: 0px;
+}
+
+#tabs ul li a span {
+	background: url('images/main_tab_right.gif') no-repeat right top;
+}
+
+#tabs ul li a.current {
+  background-position: left bottom;
+color:white;
+}
+
+#tabs ul li a.current span {
+	background-position: right bottom;
+}
+
+#tabs ul li.first a{
+
+}
+
+/*******************************************************************************
+  PAGE
+*******************************************************************************/
+
+#page .container {
+	background: #FFF url('images/page_container.gif') repeat-y top left;
+	border: 0px;
+	width: 980px;
+}
+
+#page .container_inner {
+	background:url('images/page_container_inner.gif') no-repeat left bottom;
+	padding: 0px 0px 20px 0px;
+}
+
+#page_header_container {
+  background: #039;
+}
+
+#page_header {
+	
+	border-bottom: 0px;
+}
+
+#page_header #page_details {
+	color: #999;
+}
+
+#page_header #page_details span {
+  color: #666;
+}
+
+#page_header #page_details a {
+  color: #666;
+  text-decoration: none;
+}
+
+#page_header #page_details a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+#page_actions .with_subitems ul {
+  background: #fcfcfc url(images/dropdown_background.gif) repeat-x top left;
+}
+
+#page_actions .with_subitems ul a {
+  color: #555;
+}
+
+#page_actions .with_subitems a.button {
+  border-bottom: 1px solid #fbfbfb;
+}
+
+#breadcrumbs {
+  background: url('images/breadcrumbs.gif') repeat-x left top;
+  color: #999;
+}
+
+#breadcrumbs li {
+  color: #bbb;
+}
+
+#breadcrumbs a {
+	color: #333;
+}
+
+#breadcrumbs a:hover {
+	text-decoration: underline;
+}
+
+/*******************************************************************************
+  Object Options (tabs on side)
+*******************************************************************************/
+
+.object_options a {
+	background:url('images/object_option_top.gif') no-repeat top right;
+	color: #333;
+}
+
+.object_options a span {
+	background:url('images/object_option_bottom.gif') no-repeat bottom right;
+}
+
+.object_options a:hover {
+	background:url('images/object_option_top_hover.gif') no-repeat top right;
+	text-decoration: underline;
+}
+
+.object_options a:hover span {
+	background:url('images/object_option_bottom_hover.gif') no-repeat bottom right;
+}
+
+.main_object .object_options a {
+	color: #950000;
+}
+
+/*******************************************************************************
+  Flash
+*******************************************************************************/
+
+.flash  {
+  display: block;
+  background: url('images/information_bar_right.gif') no-repeat right top;
+  height: 30px;
+  overflow: hidden;
+  margin: 5px 40px 12px !important;
+  padding: 0px !important;
+  font-size: 11px;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0px;
+}
+
+.flash .flash_inner {
+  display: block;
+  height: 30px;
+  padding: 9px 10px 0px 45px;
+}
+
+#success .flash_inner {
+  color: #207a29;
+  background: url('images/flash_success.gif') no-repeat left top;
+  border: 0px;
+}
+
+#error .flash_inner {
+  color: #b7220a;
+  background: url('images/flash_error.gif') no-repeat left top;
+  border: 0px;
+}
+
+.object_list td a {
+  color: #666;
+}
+
+.object_list td h3 a {
+  color: #333;
+}
+
+/*******************************************************************************
+  Category List
+*******************************************************************************/
+
+.category_list a {
+  background: url('images/categories_tab_top.gif') no-repeat right top;
+  color: #666;
+}
+
+.category_list a span {
+  background: url('images/categories_tab_bottom.gif') no-repeat right bottom; 
+}
+
+.category_list .selected a {
+  background: url('images/categories_tab_top_selected.gif') no-repeat right top;
+  color: #333;
+  border: 0px;
+  border-left: 1px solid #FFF;
+}
+
+.category_list .selected a span {
+  background: url('images/categories_tab_bottom_selected.gif') no-repeat right bottom;
+}
+
+/*******************************************************************************
+  Login Form
+*******************************************************************************/
+
+#auth_dialog_container {
+  background: #9C0000 url(images/login_form_background.gif) repeat-x left top;
+}
+
+#auth_dialog_container_inner {
+  background: url(images/login_form_background_inner.gif) repeat-x left bottom;
+}
+
+#auth_dialog button,
+.grey_button {
+  background-image: url('images/login_bg_button_a.gif');
+}
+
+#auth_dialog button span,
+.grey_button span {
+  background-image: url('images/login_bg_button_span.gif');
+}
+
+#auth_dialog {
+  width: 340px;
+  background: #EDECEC url(images/login_form_top.gif) no-repeat left top;
+  border: 0px;
+}
+
+#auth_dialog form {
+  background: url(images/login_form_bottom.gif) no-repeat left bottom;
+}
+
+.auth_elements {
+  padding-left: 16px !important;
+}
+
+/*******************************************************************************
+  Overlay Dialog
+*******************************************************************************/
+
+div.dialog {
+  border-top: 0px;
+}
+
+div.dialog h2 {
+  background: #fff url('images/popup_title.gif') repeat-x left top;
+color:white;
+}
+
+div.dialog a.close {
+  background: url(images/dialog_close.gif) no-repeat left top;
+}
+
+div.dialog a.close span {
+  display: none;
+}
+
+div.dialog div.body {
+  background: #FFF url('images/popup_background.gif') repeat-x left top;
+}
+
+/*******************************************************************************
+  Sections
+*******************************************************************************/
+
+h2.section_name {
+  background: url(images/section_start.gif) no-repeat left top;
+  border: 0px;
+}
+
+h2.section_name span.section_name_span {
+  background: url(images/section_end.gif) no-repeat right top; 
+color:white;
+  padding: 8px 15px 9px;
+}
+
+/*******************************************************************************
+    PAGINATION
+*******************************************************************************/
+
+.pagination {
+  background: url(images/pagination_left.gif) no-repeat left top;
+  border: 0px;
+}
+
+.pagination .inner_pagination {
+  background: url(images/pagination_right.gif) no-repeat right top;
+}
+
+/*******************************************************************************
+  Adiministration
+*******************************************************************************/
+
+#admin_sections .section {
+  border: 0px;
+  display: block;
+  width: 372px;
+  background: #FFF url(images/admin/admin_section_button_top.gif) no-repeat left top;
+}
+
+#admin_sections .section .section_inner {
+  display: block;
+  background: url(images/admin/admin_section_button_bottom.gif) no-repeat left bottom;
+  padding: 25px 20px 25px;
+  min-height: 75px;
+}
+
+#admin_sections .section.hover {  
+  text-decoration: none !important;
+  background-image: url(images/admin/admin_section_button_top_hover.gif);
+}
+
+#admin_sections .section.hover .section_inner {
+  background-image: url(images/admin/admin_section_button_bottom_hover.gif);
+}
+
+/*******************************************************************************
+  Project overview
+*******************************************************************************/
+
+#project_details {
+  width: 427px;
+  background: #0166CD url(images/project_details_top.gif) no-repeat left top;
+  border: 0px;
+}
+
+.project_details_inner {
+  background: url(images/project_details_bottom.gif) no-repeat left bottom;
+  padding: 10px 20px 20px;
+}
+
+#project_details .button {
+  background-image: url(images/bg_button_a_pdetails.gif);
+}
+
+#project_details .button span {
+  background-image: url(images/bg_button_span_pdetails.gif);
+}
+
+#project_details h2 {
+  border-bottom: 1px solid #d9d8bc;
+}
+
+/*******************************************************************************
+  Dashboard
+*******************************************************************************/
+#dashboard #new_late_starred {
+  height: 82px;
+}
+
+#dashboard #new_late_starred div.new_late_starred_button {
+  float: left;
+  margin-right: 11px;
+  background: #FBFBFB;
+  border: 0px;
+}
+
+#dashboard #new_late_starred div.new_late_starred_inner_button {
+  padding: 10px 10px 10px 57px;
+  height: 60px;
+  width: 225px;
+  border: 0px;
+}
+
+#dashboard #new_late_starred div.new_late_starred_button.hover {
+  border: 0px;
+}
+
+#dashboard #new_late_starred div.new_late_starred_button {
+  background: url(images/dashboard_bigbutton.gif) no-repeat left top;
+}
+
+#dashboard #new_late_starred div.new_late_starred_button.hover {
+  background: url(images/dashboard_bigbutton_hover.gif) no-repeat left top;
+}
+
+#dashboard #new_late_starred div.new_late_starred_button.selected {
+  background: url(images/dashboard_bigbutton_hover.gif) no-repeat left top;
+}
+
+#dashboard #new_objects_button_section,
+#dashboard #late_today_objects_button_section,
+#dashboard #starred_objects_button_section {
+  width: 898px;
+  background: url(images/dashboard_details_top_1.gif) no-repeat left top;
+  padding: 20px 0px 0px 0px;
+  border: 0px;
+  margin-top: 0px;
+}
+
+#dashboard div.section_inner_block {
+  background: #DFDFDF url(images/dashboard_details_bottom.gif) no-repeat left bottom;
+  padding: 4px 20px 10px;
+  min-height: 100px;
+}
+
+#dashboard div.section_inner_block .even td {
+  background: #f0eeda;
+  border-bottom: 1px dotted #dedbb6;
+}
+
+#dashboard div.section_inner_block .odd td {
+  border-bottom: 1px dotted #dedbb6;
+}
+
+#dashboard #late_today_objects_button_section {
+  background-image: url(images/dashboard_details_top_2.gif);
+}
+
+#dashboard #starred_objects_button_section {
+  background-image: url(images/dashboard_details_top_3.gif);
+}
+
+/** Project progress **/
+
+div.project_progress .progress_wrapper .progress {
+  background: #950000 url(images/progressbar.gif) !important;
+}
+
+table.assignments_filter {
+  background: url(images/system_message.gif);
+}
+
+/*******************************************************************************
+  Calendar
+*******************************************************************************/
+
+#calendar table.calendar td.not_empty_day div.day_num { 
+  background: #e8e6c5 url('images/icons/gray-dot.gif') no-repeat right center;
+}
+
+#calendar table.calendar td.not_empty_day.weekend div.day_num { 
+  background: #e8dbc5 url('images/icons/weekend-gray-dot.gif') no-repeat right center;
+}
+
+#calendar table.calendar td.weekend {
+  background: #f2e9da;
+}
+
+#calendar table.calendar tbody td.weekend div.day_num {
+  background:#e8dbc5;
+}
+
+#calendar table.calendar tbody td.weekend div.day_num a{
+  background:#DFC08B;
+}
+
+#calendar table.calendar td.weekday {
+  background: #F2F1DF;
+}
+
+#calendar table.calendar tbody td div.day_num {
+  background: #e8e6c5;
+}
+
+
+#calendar table.calendar tbody td.today .day_num { 
+  padding: 3px 5px;
+  border: 2px solid #950000;
+}
+
+#calendar table.calendar tbody td div.day_num a {
+  background: #CFCB8E;
+  color: #fff;
+}
+
+#calendar table.calendar tbody td.weekend div.day_num a{
+  background:#DFC08B;
+}
+
+.calendar_navigation_item {
+  background: url(images/pagination_left.gif) no-repeat left top;
+  border: 0px;
+}
+
+.calendar_navigation_item .calendar_navigation_item_inner {
+  background: url(images/pagination_right.gif) no-repeat right top;
+}
+
+#new_record {
+  background: url(images/system_message.gif);
+}

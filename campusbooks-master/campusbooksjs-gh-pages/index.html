@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <link href="https://partners.campusbooks.com//styles/partner.css" type="text/css" rel="stylesheet">
+  <title>CampusBooksJS: Auto-generated Documentation</title>
+  <!-- 
+  `ender build \
+      jQuery pure events.node querystring url future join ahr.options ahr.utils ahr.browser ahr2 jsonapi campusbooks`
+  -->
+  <script src="./js/ender.js"></script>
+  <script src="./campusbooks-api-app.js"></script>
+  <style>
+    h2 {
+      padding-top:20px;
+    } 
+    #menu > ul, #menu > li {
+      padding: 5px;
+      width: 20px;
+      display: inline;
+      list-style: none;
+      cursor:pointer;cursor:hand;
+    }
+    div.book {
+      border: 1px solid black;
+      background-color: #DEF;
+      width: 600px;
+      height: 100px;
+      position: relative;
+      margin: 5px;
+      padding: 5px;
+    }
+    div.book div.image {
+      float: left;
+      width: 75px;
+      height: 75px;
+    }
+    div.book .bookinfo {
+      font-size: 18px;
+      float: left;
+      height: 75px;
+      width: 300px;
+    }
+  </style>
+  <script>
+    (function () {
+      var $ = require('jQuery');
+
+      $(function () {
+        $('#menu').delegate('a', 'click', function (ev) {
+          ev.preventDefault();
+          $('.tab').fadeOut();
+          $('#' + $(this).attr('name') ).fadeIn();
+        });
+        $('#menu [name=api-test]').click();
+      });
+    }());
+  </script>
+  </head>
+  <body>
+    <div id="root">
+
+    <div id="menu">
+      <ul>
+        <li><a name="api-test">Examples</a></li>
+        <li><a name="api-doc">Documentation</a></li>
+      </ul>
+    </div>
+
+      <!-- BEGIN auto-generated client -->
+    <div id="api-test" class="tab" style="display: none;">
+      <h1>API Tester:</h1>
+      <br/>Here are some values you might want to try:
+      <br/>keywords: "single variable calculus"
+      <br/>ISBN13: 9780495384250
+      <br/>
+      <br/>
+      <div id="templates" style="display: none;">
+        <div class="book">
+          <div class="image">
+            <img class="image" src="http://www.campusbooks.com/images/no_image.gif"/>
+          </div>
+          <div class="bookinfo">
+            <div class="title">!Single Variable Calculus: Early Transcendentals, Volume 1</div>
+            <div class="edition">!6</div>
+            <div class="isbn10">!0495384259</div>
+            <div class="isbn13">!9780495384250</div>
+          </div>
+        </div>
+      </div>
+      <div id="api_enumeration">
+        <div id="api_modules">
+          <form class="action" id="api_module_REQUEST">
+            <div style="float: left;">
+            CampusBooks.<span class="action">action</span>(<span class="parameters">{
+              <span class="parameter">
+                <span class="key">keyname</span>:
+                "<span class="value">userval</span>"<span class="comma">,</span>
+              </span>
+            }</span>);
+            <div class="parameters">
+              <span class="parameter">
+                <br/><label class="key" for="keyname" >keyname</label>:
+                <input class="value" name="keyname" type="text" />
+              </span>
+            </div>
+            <input type="submit" value="Try it Out">
+            </div>
+            <div style="float: left;"><pre><code id="api_results_REQUEST" class="results"> [results will appear here] </code></pre></div>
+            <div style="clear: both;"><br/></div>
+          </form>
+        </div>
+      </div>
+    </div>
+      <!-- END auto-generated client -->
+
+      <!-- BEGIN auto-generated documentation -->
+    <div id="api-doc" class="tab" style="display: none;">
+      <h1>Auto-generated documentation:</h1>
+      <div class="content-area">
+        <div id="content-main" class="content">
+          <h1>Available Calls</h1>
+          <a name="constants"></a>
+          <div id="api_doc">
+            <div class="call">
+              <h2 class="name">Call name</h2>
+              <p class="description">A description of the call</p>
+              <table class="ItemTable" width="100%" bgcolor="#f0f0f0">
+                <thead class="response_header">
+                  <tr>
+                    <th width="130" align="left">Key</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="response">
+                    <td class="key"></td>
+                    <td class="description"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <hr />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- END auto-generated documentation -->
+
+    </div>
+  </body>
+</html>
+

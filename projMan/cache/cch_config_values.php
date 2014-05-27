@@ -1,0 +1,1 @@
+<?php return unserialize('a:2:{s:19:"maintenance_enabled";b:0;s:25:"projects_use_client_icons";b:0;}') ?>

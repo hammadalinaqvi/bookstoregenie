@@ -1,0 +1,450 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Bookstore genie | Buyback</title> 
+  	<meta name="csrf-param" content="authenticity_token"/> 
+	<meta name="csrf-token" content="uK5etSng8pH2YFKgokG0J+cjQ8cpwAj57fkTw0tG8vE="/>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<!-- jquery script -->
+		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js'></script>
+	
+	<!-- general style -->
+		<link href="../bsgPages/css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
+	
+	<!-- navigation style + script -->
+		<link rel='stylesheet' href='../bsgPages/css/navigation.css'>
+		<script src='js/navigation.js'></script>
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	
+	<!-- google fonts -->
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo|Questrial|Istok+Web|Quattrocento+Sans:400,700"  type="text/css" />
+		
+	<!-- forms -->
+		<link rel="stylesheet" type="text/css" href="../bsgPages/iphorm/css/inline.css" /><!-- Standard form layout -->
+		<link rel="stylesheet" type="text/css" href="../bsgPages/iphorm/css/pagestyles.css" /><!-- Standard form layout -->
+		<script type="text/javascript" src="../bsgPages/iphorm/js/plugins.js"></script>
+		<script type="text/javascript" src="../bsgPages/iphorm/js/scripts.js"></script>
+		
+</head>
+ 
+<body class="in" onload="setCookie('results','(0073527114,0,1);','10'); updateTotal();"> 
+	
+	<div class="header"> <!-- begin header -->
+	
+		<div class="innerHeader"> <!-- begin inner header -->
+		
+		<a href="http://www.bookstoregenie.com" title="BookStoreGenie"><div class="topLogo"></div></a> 
+			
+			<div class="nav-wrap">
+				<ul class="group" id="example-one">
+		            <li><a href="about.html">About Us</a></li>
+		            <li><a href="../rent/index.php">Rent Now</a></li>
+		            <li class="current_page_item"><a href="sellyourbook.html">Sell Now</a></li>
+		            <li><a href="trustTheGenie.html">Trust the Genie</a></li>
+		            <li><a href="contact.html">Contact</a></li>
+		            <li><a href="beAgenie.html">Be a Genie</a></li>
+		        </ul>
+		    </div> 
+			
+		</div> <!-- end inner header -->
+			
+	</div> <!-- end header -->
+ 	
+		<div class="heading"> <!-- begin heading --> 
+		
+			<div class="breadcrumbs">  <!-- begin breadcrumbs -->
+				<a href="http://bookstoregenie.com" title="Homepage">Homepage</a> &raquo Buyback
+			</div> <!-- end breadcrumbs -->
+			
+		</div> <!-- end heading -->
+			
+	<div class="wrap"> <!-- begin wrap -->
+	
+		<div class="left-col">
+		
+				    <!-- To copy the form HTML, start here -->
+				    <div class="iphorm-outer">
+						<form class="iphorm" action="../bsgPages/iphorm/process.php" method="post" enctype="multipart/form-data">
+				            <div class="iphorm-wrapper">
+				    	        <div class="iphorm-inner">
+				    	           <div class="iphorm-title">Payment</div>
+					               <div class="iphorm-container clearfix">
+				                        <!-- Begin Name element -->
+				                        <div class="element-wrapper first_name-element-wrapper clearfix">
+				                            <label for="first_name">First Name <span class="red">*</span></label>
+				                            <div class="input-wrapper first_name-input-wrapper">
+				                                <input class="first_name-element iphorm-tooltip" id="first_name" type="text" name="first_name" title="Please enter your first name" />
+				                            </div>
+				                        </div>
+				                        <!-- End Name element -->
+				                        <!-- Begin Name element -->
+				                        <div class="element-wrapper last_name-element-wrapper clearfix">
+				                            <label for="last_name">Last Name <span class="red">*</span></label>
+				                            <div class="input-wrapper last_name-input-wrapper">
+				                                <input class="last_name-element iphorm-tooltip" id="last_name" type="text" name="last_name" title="Please enter your last name"/>
+				                            </div>
+				                        </div>
+				                        <!-- End Name element -->
+				                        <!-- Begin Email element -->
+				                        <div class="element-wrapper email-element-wrapper clearfix">
+				                            <label for="email">Email <span class="red">*</span></label>
+				                            <div class="input-wrapper email-input-wrapper">
+				                                <input class="email-element iphorm-tooltip" id="email" type="text" name="email" title="We promise we will never send you spam" />
+				                            </div>
+				                        </div>
+				                        <!-- End Email element -->
+				                        <!-- Begin Phone element -->
+				                        <div class="element-wrapper phone-element-wrapper clearfix">
+				                            <label for="phone">Phone</label>
+				                            <div class="input-wrapper phone-input-wrapper">
+				                                <input class="phone-element iphorm-tooltip" id="phone" type="text" name="phone" title="We will only use your phone number to contact you regarding your enquiry" />
+				                            </div>
+				                        </div>
+				                        <!-- End Phone element -->
+				                        <div class="address-area">
+				                        <!-- Begin address input element -->
+				                        <div class="element-wrapper street-element-wrapper clearfix">
+				                            <label for="street">Shipping Street <span class="red">*</span></label>
+				                            <div class="input-wrapper street-input-wrapper">
+				                                <input class="street-element iphorm-tooltip" id="street" type="text" name="street" title="Enter your shipping street" />
+				                            </div>
+				                        </div>
+				                        <!-- End Text input element -->
+				                        <!-- Begin address input element -->
+				                        <div class="element-wrapper city-element-wrapper clearfix">
+				                            <label for="city">Shipping City <span class="red">*</span></label>
+				                            <div class="input-wrapper city-input-wrapper">
+				                                <input class="city-element iphorm-tooltip" id="city" type="text" name="city" title="Enter your shipping city" />
+				                            </div>
+				                        </div>
+				                        <!-- End Text input element -->
+				                       	<!-- Begin Single select element -->
+				                        <div class="element-wrapper state-element-wrapper clearfix">
+				                            <label for="state">Select State <span class="red">*</span></label>
+				                            <div class="input-wrapper state-input-wrapper clearfix">
+				                                <select class="iphorm-tooltip" id="state" name="state" title="Select your state">
+				                                    <option value="AL">Alabama</option>
+													<option value="AK">Alaska</option>
+													<option value="AZ">Arizona</option>
+													<option value="AR">Arkansas</option>
+													<option value="CA">California</option>
+													<option value="CO">Colorado</option>
+													<option value="CT">Connecticut</option>
+													<option value="DE">Delaware</option>
+													<option value="DC">Dist of Columbia</option>
+													<option value="FL">Florida</option>
+													<option value="GA">Georgia</option>
+													<option value="HI">Hawaii</option>
+													<option value="ID">Idaho</option>
+													<option value="IL">Illinois</option>
+													<option value="IN">Indiana</option>
+													<option value="IA">Iowa</option>
+													<option value="KS">Kansas</option>
+													<option value="KY">Kentucky</option>
+													<option value="LA">Louisiana</option>
+													<option value="ME">Maine</option>
+													<option value="MD">Maryland</option>
+													<option value="MA">Massachusetts</option>
+													<option value="MI">Michigan</option>
+													<option value="MN">Minnesota</option>
+													<option value="MS">Mississippi</option>
+													<option value="MO">Missouri</option>
+													<option value="MT">Montana</option>
+													<option value="NE">Nebraska</option>
+													<option value="NV">Nevada</option>
+													<option value="NH">New Hampshire</option>
+													<option value="NJ">New Jersey</option>
+													<option value="NM">New Mexico</option>
+													<option value="NY">New York</option>
+													<option value="NC">North Carolina</option>
+													<option value="ND">North Dakota</option>
+													<option value="OH">Ohio</option>
+													<option value="OK">Oklahoma</option>
+													<option value="OR">Oregon</option>
+													<option value="PA">Pennsylvania</option>
+													<option value="RI">Rhode Island</option>
+													<option value="SC">South Carolina</option>
+													<option value="SD">South Dakota</option>
+													<option value="TN">Tennessee</option>
+													<option value="TX">Texas</option>
+													<option value="UT">Utah</option>
+													<option value="VT">Vermont</option>
+													<option value="VA">Virginia</option>
+													<option value="WA">Washington</option>
+													<option value="WV">West Virginia</option>
+													<option value="WI">Wisconsin</option>
+													<option value="WY">Wyoming</option>
+				                                </select>
+				                            </div>
+				                        </div>
+				                        <!-- End state element -->
+				                        <!-- Begin zip element -->
+				                        <div class="element-wrapper zip-element-wrapper clearfix">
+				                            <label for="zip">Shipping Zip <span class="red">*</span></label>
+				                            <div class="input-wrapper zip-input-wrapper">
+				                                <input class="zip-element iphorm-tooltip" id="zip" type="text" name="zip" title="Enter you shipping zip code" />
+				                            </div>
+				                        </div>
+				                        <!-- End zip element -->
+				                        </div> <!-- end address area -->
+				                        <div class="address-area">
+										<!-- Begin address input element -->
+				                        <div class="element-wrapper street-element-wrapper clearfix">
+				                            <label for="street">Billing Street <span class="red">*</span></label>
+				                            <div class="input-wrapper street-input-wrapper">
+				                                <input class="street-element iphorm-tooltip" id="street" type="text" name="street" title="Enter your billing street" />
+				                            </div>
+				                        </div>
+				                        <!-- End Text input element -->
+				                        <!-- Begin address input element -->
+				                        <div class="element-wrapper city-element-wrapper clearfix">
+				                            <label for="city">Billing City <span class="red">*</span></label>
+				                            <div class="input-wrapper city-input-wrapper">
+				                                <input class="city-element iphorm-tooltip" id="city" type="text" name="city" title="Enter your billing city" />
+				                            </div>
+				                        </div>
+				                        <!-- End Text input element -->
+				                       	<!-- Begin Single select element -->
+				                        <div class="element-wrapper state-element-wrapper clearfix">
+				                            <label for="state">Select State <span class="red">*</span></label>
+				                            <div class="input-wrapper state-input-wrapper clearfix">
+				                                <select class="iphorm-tooltip" id="state" name="state" title="Select your state">
+				                                    <option value="AL">Alabama</option>
+													<option value="AK">Alaska</option>
+													<option value="AZ">Arizona</option>
+													<option value="AR">Arkansas</option>
+													<option value="CA">California</option>
+													<option value="CO">Colorado</option>
+													<option value="CT">Connecticut</option>
+													<option value="DE">Delaware</option>
+													<option value="DC">Dist of Columbia</option>
+													<option value="FL">Florida</option>
+													<option value="GA">Georgia</option>
+													<option value="HI">Hawaii</option>
+													<option value="ID">Idaho</option>
+													<option value="IL">Illinois</option>
+													<option value="IN">Indiana</option>
+													<option value="IA">Iowa</option>
+													<option value="KS">Kansas</option>
+													<option value="KY">Kentucky</option>
+													<option value="LA">Louisiana</option>
+													<option value="ME">Maine</option>
+													<option value="MD">Maryland</option>
+													<option value="MA">Massachusetts</option>
+													<option value="MI">Michigan</option>
+													<option value="MN">Minnesota</option>
+													<option value="MS">Mississippi</option>
+													<option value="MO">Missouri</option>
+													<option value="MT">Montana</option>
+													<option value="NE">Nebraska</option>
+													<option value="NV">Nevada</option>
+													<option value="NH">New Hampshire</option>
+													<option value="NJ">New Jersey</option>
+													<option value="NM">New Mexico</option>
+													<option value="NY">New York</option>
+													<option value="NC">North Carolina</option>
+													<option value="ND">North Dakota</option>
+													<option value="OH">Ohio</option>
+													<option value="OK">Oklahoma</option>
+													<option value="OR">Oregon</option>
+													<option value="PA">Pennsylvania</option>
+													<option value="RI">Rhode Island</option>
+													<option value="SC">South Carolina</option>
+													<option value="SD">South Dakota</option>
+													<option value="TN">Tennessee</option>
+													<option value="TX">Texas</option>
+													<option value="UT">Utah</option>
+													<option value="VT">Vermont</option>
+													<option value="VA">Virginia</option>
+													<option value="WA">Washington</option>
+													<option value="WV">West Virginia</option>
+													<option value="WI">Wisconsin</option>
+													<option value="WY">Wyoming</option>
+				                                </select>
+				                            </div>
+				                        </div>
+				                        <!-- End state element -->
+				                        <!-- Begin zip element -->
+				                        <div class="element-wrapper zip-element-wrapper clearfix">
+				                            <label for="zip">Billing Zip <span class="red">*</span></label>
+				                            <div class="input-wrapper zip-input-wrapper">
+				                                <input class="zip-element iphorm-tooltip" id="zip" type="text" name="zip" title="Enter you billing zip code" />
+				                            </div>
+				                        </div>
+				                        <!-- End zip element -->
+				                        </div> <!-- end address-area -->
+				                        <div class="payment-area">
+				                        <!-- Begin method element -->
+				                        <div class="element-wrapper method-element-wrapper clearfix">
+				                            <label for="state">Method <span class="red">*</span></label>
+				                            <div class="input-wrapper method-input-wrapper clearfix">
+				                                <select id="method" name="method">
+				                                    <option value="Visa">Visa</option>
+													<option value="Mastercard">Mastercard</option>
+													<option value="American_Express">American Express</option>
+													<option value="Discover">Discover</option>
+													<option value="Diners_Club">Diners Club</option>
+													<option value="Food_Stamps">Food Stamps</option>
+				                                </select>
+				                            </div>
+				                        </div>
+				                        <!-- End method element -->
+				                        <!-- Begin CC numer element -->
+				                        <div class="element-wrapper card-element-wrapper clearfix">
+				                            <label for="card">Credit Card Number <span class="red">*</span></label>
+				                            <div class="input-wrapper card-input-wrapper">
+				                                <input class="card-element" id="card" type="text" name="card" />
+				                            </div>
+				                        </div>
+				                        <!-- End Name element -->
+				                        <!-- Begin method element -->
+				                        <div class="element-wrapper month-element-wrapper clearfix">
+				                            <label for="month">Month <span class="red">*</span></label>
+				                            <div class="input-wrapper month-input-wrapper clearfix">
+				                                <select id="month" name="month">
+				                                    <option value='01'>January</option>
+													<option value='02'>February</option>
+													<option value='03'>March</option>
+													<option value='04'>April</option>
+													<option value='05'>May</option>
+													<option value='06'>June</option>
+													<option value='07'>July</option>
+													<option value='08'>August</option>
+													<option value='09'>September</option>
+													<option value='10'>October</option>
+													<option value='11'>November</option>
+													<option value='12'>December</option>
+				                                </select>
+				                            </div>
+				                        </div>
+				                        <!-- End method element -->
+				                        <!-- Begin method element -->
+				                        <div class="element-wrapper year-element-wrapper clearfix">
+				                            <label for="year">Year <span class="red">*</span></label>
+				                            <div class="input-wrapper year-input-wrapper clearfix">
+				                                <select id="year" name="year">
+				                                    <option value='11'>11</option>
+													<option value='12'>12</option>
+													<option value='13'>13</option>
+													<option value='14'>14</option>
+													<option value='15'>15</option>
+													<option value='16'>16</option>
+													<option value='17'>17</option>
+													<option value='18'>18</option>
+													<option value='19'>19</option>
+													<option value='20'>20</option>
+				                                </select>
+				                            </div>
+				                        </div>
+				                        <!-- End method element -->
+				                        </div> <!-- end payment area -->
+				                        <!-- Begin Submit button -->
+				                        <div class="button-wrapper submit-button-wrapper clearfix">
+				                            <div class="loading-wrapper"><span class="loading">Please wait…</span></div>
+				                            <div class="button-input-wrapper submit-button-input-wrapper">
+				                                <input class="submit-element" type="submit" name="contact" value="Send" />
+				                            </div>
+				                        </div>
+				                        <!-- End Submit button -->
+					               </div><!-- /.iphorm-container -->
+					           </div><!-- /.iphorm-inner -->
+						   </div><!-- /.iphorm-wrapper -->
+						</form>
+					</div><!-- /.iphorm-outer -->
+					<!-- To copy the form HTML, end here -->
+					
+		</div> <!-- end left col -->
+		
+			
+			<div class="summary"> 
+			
+				<h3>Buyback Summary</h3> 
+				<p> 
+					Total Books <strong id="totalBooks1">2</strong> 
+				</p> 
+				<p> 
+					New Books <strong id="totalNewBooks1">1</strong> 
+				</p> 
+				<p> 
+					Used Books <strong id="totalUsedBooks1">1</strong> 
+				</p> 
+				<div class="total">
+				<p> 
+					Total <strong id="totalUsedBooks1">63</strong> 
+				</p> 
+				</div>
+
+			</div> <!-- end summary -->
+			
+			<div style="clear:both;"></div>
+				
+	</div> <!-- end wrap -->
+	
+		<div class="footer">  <!-- begin footer -->
+		
+		<a href="http://www.bookstoregenie.com" title="BookStoreGenie" id="footerLogo">BookStoreGenie</a> 
+		
+			<!-- <ul> 
+				<li><a href="about.html">About Us</a></li> 
+				<li><a href="#" title="Sell Books">Sell Books</a></li> 
+				<li><a href="#" title="Buy Books">Buy Books</a></li> 
+				<li><a href="#" title="">Terms of Privacy</a></li> 
+				<li><a href="#" title="">Terms and Conditions</a></li> 
+			</ul> --> 
+			
+			<div style="clear:both;"></div> 
+			
+		</div> <!-- end footer -->
+ 
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script type="text/javascript" src="../bsgPages/js/jquery.easing.1.3.js"></script>
+	<!-- the jScrollPane script -->
+	<script type="text/javascript" src="../bsgPages/js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="../bsgPages/js/jquery.contentcarousel.js"></script>
+	<script type="text/javascript">
+		$('#ca-container').contentcarousel();
+	</script>
+	
+	<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.1/zenbox.js"></script>
+	<style type="text/css" media="screen, projection">
+	  @import url(//asset0.zendesk.com/external/zenbox/v2.1/zenbox.css);
+	</style>
+	<script type="text/javascript">
+	  if (typeof(Zenbox) !== "undefined") {
+	    Zenbox.init({
+	      dropboxID:   "20019273",
+	      url:         "https://bookstoregenie.zendesk.com",
+	      tabID:       "support",
+	      tabColor:    "blue",
+	      tabPosition: "Right"
+	    });
+	  }
+	</script>
+		
+	
+	<!-- begin olark code -->
+	<script type='text/javascript'>/*{literal}<![CDATA[*/window.olark||(function(i){var e=window,h=document,a=e.location.protocol=="https:"?"https:":"http:",g=i.name,b="load";(function(){e[g]=function(){(c.s=c.s||[]).push(arguments)};var c=e[g]._={},f=i.methods.length; while(f--){(function(j){e[g][j]=function(){e[g]("call",j,arguments)}})(i.methods[f])} c.l=i.loader;c.i=arguments.callee;c.f=setTimeout(function(){if(c.f){(new Image).src=a+"//"+c.l.replace(".js",".png")+"&"+escape(e.location.href)}c.f=null},20000);c.p={0:+new Date};c.P=function(j){c.p[j]=new Date-c.p[0]};function d(){c.P(b);e[g](b)}e.addEventListener?e.addEventListener(b,d,false):e.attachEvent("on"+b,d); (function(){function l(j){j="head";return["<",j,"></",j,"><",z,' onl'+'oad="var d=',B,";d.getElementsByTagName('head')[0].",y,"(d.",A,"('script')).",u,"='",a,"//",c.l,"'",'"',"></",z,">"].join("")}var z="body",s=h[z];if(!s){return setTimeout(arguments.callee,100)}c.P(1);var y="appendChild",A="createElement",u="src",r=h[A]("div"),G=r[y](h[A](g)),D=h[A]("iframe"),B="document",C="domain",q;r.style.display="none";s.insertBefore(r,s.firstChild).id=g;D.frameBorder="0";D.id=g+"-loader";if(/MSIE[ ]+6/.test(navigator.userAgent)){D.src="javascript:false"} D.allowTransparency="true";G[y](D);try{D.contentWindow[B].open()}catch(F){i[C]=h[C];q="javascript:var d="+B+".open();d.domain='"+h.domain+"';";D[u]=q+"void(0);"}try{var H=D.contentWindow[B];H.write(l());H.close()}catch(E){D[u]=q+'d.write("'+l().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}c.P(2)})()})()})({loader:(function(a){return "static.olark.com/jsclient/loader0.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]});
+/* custom configuration goes here (www.olark.com/documentation) */
+olark.identify('1395-504-10-7822');/*]]>{/literal}*/</script>
+<!-- end olark code -->
+
+	<script type="text/javascript">
+	    var GoSquared={};
+	    GoSquared.acct = "GSN-024018-M";
+	    (function(w){
+	        function gs(){
+	            w._gstc_lt=+(new Date); var d=document;
+	            var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+	            var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+	        }
+	        w.addEventListener?w.addEventListener("load",gs,false):w.attachEvent("onload",gs);
+	    })(window);
+	</script>
+	
+</body> 
+</html> 

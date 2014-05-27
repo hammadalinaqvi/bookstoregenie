@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+		<link rel="stylesheet" href="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jquery.ui.datepicker.mobile.css" />
+		<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+		<script src="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jQuery.ui.datepicker.js"></script>
+		<script src="http://jquerymobile.com/demos/1.0a4.1/experiments/ui-datepicker/jquery.ui.datepicker.mobile.js"></script>
+		<script>
+			//reset type=date inputs to text
+			$( document ).bind( "mobileinit", function(){
+			$.mobile.page.prototype.options.degradeInputs.date = true;
+			});	
+		</script>
+	</head>
+	<body>
+		<div data-role = "page">
+			<div data-role = "header">
+				<h1>New Appointment</h1>
+			</div>
+			<div data-role = "content">
+				<p>Please fill in the information below so that we can create your appointment: </p>
+				<form action = "schedule_appointment.php" method = "POST">
+					<input type = 'hidden' name = 'type' value = 'createMobile'></input>
+					<div data-role = "fieldcontain"><label for = "firstName">Name: </label><input class = "formInput" type = "text" name = "name" value = "" ></input></div>
+					<div data-role = "fieldcontain"><label for = "email">Email address: </label><input type = "text" class = "formInput" name = "email"   value = ""></input></div>
+					<div data-role = "fieldcontain"><label for = "contactPhone">Phone Number: </label><input type = "text" class = "formInput" name = "contactPhone" value = ""></input></div>
+					<div data-role = "fieldcontain"><label for = "address">Address: </label><input type = "text" name = "address"  class = "formInput"value = ""></input></div>
+					<div data-role = "fieldcontain"><label for = "city">City: </label><input type = "text" name = "city" class = "formInput" value = ""></input></div>
+					<div data-role = "fieldcontain"><label for = "state">State: </label><input type = "text" name = "state" class = "formInput" value = ""></input></div>
+					<div data-role = "fieldcontain"><label for = "zip">Zip: </label><input type = "text" name = "zip" class = "formInput" value = ""></input></div>
+					<p> Please select the date and time for your appointment: </p>
+					<div data-role = "fieldcontain"><input type="date" name="date" id="date" value=""></input></div>
+					<div data-role = "fieldcontain">
+						<select name = "time" id = "time_select">
+							<option value="7:00 AM">7:00 AM</option>
+							<option value="8:00 AM">8:00 AM</option>
+							<option value="9:00 AM">9:00 AM</option>
+							<option value="10:00 AM">10:00 AM</option>
+							<option value="11:00 AM">11:00 AM</option>
+							<option value="12:00 PM">12:00 PM</option>
+							<option value="1:00 PM">1:00 PM</option>
+							<option value="2:00 PM">2:00 PM</option>
+							<option value="3:00 PM">3:00 PM</option>
+							<option value="4:00 PM">4:00 PM</option>
+							<option value="5:00 PM">5:00 PM</option>							
+							<option value="6:00 PM">6:00 PM</option>
+							<option value="7:00 PM">7:00 PM</option>
+							<option value="8:00 PM">8:00 PM</option>
+							<option value="9:00 PM">9:00 PM</option>
+							<option value="10:00 PM">10:00 PM</option>
+							<option value="11:00 PM">11:00 PM</option>
+						</select>
+					</div>
+					<div data-role = "fieldcontain"><input type="submit" value = "Create Appointment"></input></div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

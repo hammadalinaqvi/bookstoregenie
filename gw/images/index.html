@@ -1,0 +1,520 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bookstore Genie</title>
+<!--<script src = "script/prototype.js" language="javascript" type="text/javascript"></script>-->
+<script language="javascript" type="text/javascript" src="script/autocomplete.js"></script>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js" type="text/javascript"></script>
+<link rel = "stylesheet" type = "text/css" href = "style/main.css" />
+ <script src="script/combobox.js"></script>
+<script src = "script/jquery.dropshadow.js" type = "text/javascript"></script>
+<!--[if lte IE 7]>
+<style>
+#interfaceContainer{
+	background-image: url(../images/interfacebg.png);
+	width: 928px;
+	height: 286px;
+	text-align: left;
+	font-family: Arial;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+#isbnContainer{
+	background-image: url(../images/isbnbg.png);
+	width: 928px;
+	height: 170px;
+	margin-left: 50px;
+	margin-top: 30px;
+	float: left;
+}
+#search{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	border: none transparent;
+	width: 620px;
+	height: 34px;
+	float: left;
+	position: relative;
+	z-index: 10;
+	padding-left: 10px;
+	position: relative;
+	left: -60px;
+}
+</style>
+<![endif]-->
+</style>
+  <style>
+	.ui-button { margin-left: -1px; }
+	.ui-button-icon-only .ui-button-text { padding: 0.35em; } 
+	.ui-autocomplete-input { margin: 0; padding: 0.48em 0 0.47em 0.45em; }
+	.ui-autocomplete-input{width:200px; }
+	</style>
+ <script type="text/javascript">
+            window.onload = function () {
+              //  var oTextbox = new AutoSuggestControl(document.getElementById("search"), new StateSuggestions());
+            }
+        </script>
+</head>
+<script language="javascript" type="text/javascript">
+function College(name, dbName, isbn, link){
+	this.name   = name;
+	this.dbName = dbName;
+	this.isbn   = isbn;
+	this.link   = link;
+}
+var department, course, section, school, autocomplete;
+var ids = new Array();
+function setDepartment(value){
+	department = value;
+}
+function setCourse(value){
+	course = value;
+}
+function setSection(value){
+	section = value;
+}
+var data = new Array(), colleges = new Array();
+
+ window.onload = function () {
+	$.ajax({
+		url: "portal.php",
+		type: "POST",
+		data: {req: "school"},
+		success: function(transport){
+			var transport = eval ("(" + transport + ")");
+			for (var i = 0; i < colleges.length; i++){
+				data.push(colleges[i].name);
+			}
+			for (var i = 0; i < transport.length; i++){
+				colleges.push(new College(transport[i][0], "", true, transport[i][1]));
+				data.push(transport[i][0]);
+			}
+			data.sort();
+			//AutoComplete_Create('search', data);'
+			autocomplete = $("#search").autocomplete({
+				source: data
+			});
+			$("#search").bind("autocompleteopen", function(event, ui){
+				$("<li class='ui-menu-item' role='menuitem'>Can't find your University?</li>").appendTo(autocomplete);
+			});
+		},
+		faliure: function(){
+			alert("Unable to retrieve school information. Check your internet connection.");
+		}
+	});
+
+	colleges.push(new College("University of Wisconsin Madison", "wisc", false, ""));
+	/*colleges.push(new College("University of Redlands", 'redlands'));
+	colleges.push(new College("Redlands", 'redlands'));
+	colleges.push(new College("Suffolk County Community College", 'suffolk'));
+	colleges.push(new College("Georgia State University", 'georgia'));
+	colleges.push(new College("California State University: San Bernardino", 'csusb'));
+	colleges.push(new College("California State University: San Bernardino (Palm Desert Campus)", 'csusb_palm'));
+	colleges.push(new College("UC Berkeley", 'berkeley'));
+	colleges.push(new College("University of California, Berkeley", 'berkeley'));
+	colleges.push(new College("Berkeley", 'berkeley'));
+	colleges.push(new College("Syracuse University", 'syracuse'));
+	colleges.push(new College("Purdue University", 'purdue'));
+	colleges.push(new College("Albany State University", 'albany'));
+	colleges.push(new College("Emory University", 'emory'));
+	colleges.push(new College("University of Georgia", 'u_georgia'));
+	colleges.push(new College("University of Georgia - FTX", 'u_georgia_ftx'));
+	colleges.push(new College("Claremont Colleges", 'claremont'));
+	colleges.push(new College("Claremont McKenna", 'claremont'));
+	colleges.push(new College("Pitzer College", 'claremont'));
+	colleges.push(new College("Pomona College", 'claremont'));
+	colleges.push(new College("Harvey Mudd College", 'claremont'));
+	colleges.push(new College("Scripps College", 'claremont'));
+	colleges.push(new College("Claremont Graduate University", 'claremont'));
+	colleges.push(new College("Keck Graduate Institute", 'claremont'));
+	colleges.push(new College("Florida State University", 'florida'));
+	colleges.push(new College("Rollins College", 'rollins'));
+	colleges.push(new College("Palm Beach State College - Lake Worth", 'lw'));
+	colleges.push(new College("Palm Beach State College - Eissey", 'eissey'));
+	colleges.push(new College("Palm Beach State College - South", 'south'));
+	colleges.push(new College("St. John's University", 'stjohns'));
+	colleges.push(new College("American University", 'american'));
+	colleges.push(new College("Georgetown University", 'georgetown'));	
+	colleges.push(new College("New York University", 'nyu'));
+	colleges.push(new College("Northwestern University", 'northwestern'));
+	colleges.push(new College("Duke University", 'duke'));	
+	colleges.push(new College("Harvard University", 'harvard'));		
+	colleges.push(new College("Tulane University", 'tulane'));		
+	colleges.push(new College("Georgia Tech", 'gtech'));		
+	colleges.push(new College("SAIC", 'saic'));		
+	colleges.push(new College("School of the Art Institute of Chicago (SAIC)", 'saic'));		
+	colleges.push(new College("DePaul University", 'saic'));		
+	colleges.push(new College("Cornell  University", 'cornell'));		
+	colleges.push(new College("Missouri State University", 'msu'));		
+	colleges.push(new College("CUNY - Queens College", 'queens'));		
+	colleges.push(new College("Queens College - CUNY", 'queens'));		
+	colleges.push(new College("Baruch College", 'baruch'));		
+	colleges.push(new College("UC Santa Barbara", 'ucsb'));
+	colleges.push(new College("University of California, Santa Barbara", 'ucsb'));
+	colleges.push(new College("San Jose State University", 'sjsu'));
+	colleges.push(new College("University of Alabama", 'ua'));
+	colleges.push(new College("Penn State University", 'psu'));
+	colleges.push(new College("Birmingham-Southern College", 'bsu'));*/
+
+	$("#interfaceContainer").css("display", "none");
+	$("#department_box").css("display", "none");
+	$("#search_btn").css("display", "none");
+	$("#courses").css("display", "none");
+	$("#course_box").css("display", "none");
+	$("#section_box").css("display", "none");
+	$("#isbnContainer").css("display", "none");
+	$("#widgetContainer").css("display", "none");
+}
+
+
+function goClick(){
+	/*for (var i = 0; i < colleges.length; i++){
+		if (document.getElementById('search').value == colleges[i].name){
+			window.location = "selectbooks.php?dbname=" + encodeURIComponent(colleges[i].dbName) + "&bookstore=" + encodeURIComponent(colleges[i].name);
+		}
+	}
+	if (document.getElementById('search').value == "Can't find your University?"){
+		window.location = "nopage.html";
+	}*/
+	for (var i = 0; i < colleges.length; i++){
+		if (document.getElementById('search').value == colleges[i].name){
+			school = colleges[i].dbName;
+			isbn   = colleges[i].isbn;
+			link   = colleges[i].link;
+		}
+	}
+	if (!isbn){
+		$.ajax({
+			url: "portal.php",
+			type: "POST",
+			data: {req: "department", school: school},
+			success: function(transport){
+				$("#department_select").empty();
+				$("#department_input").val("");
+				var list = new Array(), bad = false;
+				var transport = eval ("(" + transport + ")");
+				for (var i in transport){
+					$("#department_select").append("<option value = '" + transport[i] + "'>" + transport[i]  + "</option>");
+					list.push(transport[i]);
+				}
+				$("#interfaceContainer").slideDown(600);
+				$("#department_input").attr("value", "Select Department");
+				$("#department_input").click(departmentClick);
+				$("#department_box").css("display", "block");
+				$("#course_box").css("display", "none");
+				$("#section_box").css("display", "none");
+				$("#courses").css("display", "block");
+				$("#isbnContainer").slideUp(600);
+				$("html, body").animate({
+					scrollTop: $("#interfaceContainer").offset().top
+				}, 600);
+			},
+			faliure: function(){
+				alert("Unable to retrieve class information");
+			}
+		});
+	}else{
+		if ($("#isbnIntro").length == 0)
+			$("#isbnContainer").prepend("<div id = 'isbnIntro'>Please look up your textbook requirements <a href = '" + link + "' onClick = 'return createPopup(" + '"' + link + '"' + ")'>here</a>, and copy and paste your ISBNs below.</div>");
+		else{
+			$("#isbnIntro").remove();
+			$("#isbnContainer").prepend("<div id = 'isbnIntro'>Please look up your textbook requirements <a href = '" + link + "' onClick = 'return createPopup(" + '"' + link + '"' + ")'>here</a>, and copy and paste your ISBNs below.</div>");
+		}
+		$("#isbnContainer").slideDown(600);
+		$("#interfaceContainer").slideUp(600);
+		$("html, body").animate({
+			scrollTop: $("#isbnContainer").offset().top
+		}, 600);
+	}
+	
+	$("#university").html(document.getElementById('search').value);
+}
+
+function departmentClick(){
+	if ($("#department_input").attr("value") == "Select Department")
+		$("#department_input").attr("value", "");
+}
+
+function courseClick(){
+	if ($("#course_input").attr("value") == "Select Course")
+		$("#course_input").attr("value", "");
+}
+
+function sectionClick(){
+	if ($("#section_input").attr("value") == "Select Section")
+		$("#section_input").attr("value", "");
+}
+function interfaceGo(){
+	var dbName, id_string = "";
+	for (var i = 0; i < colleges.length; i++){
+		if (colleges[i].name == $("#search").val()){
+			dbName = colleges[i].dbName;
+		}
+	}
+	for (var i = 0; i < ids.length; i++){
+		if (i != ids.length - 1)
+			id_string += ids[i] + ",";
+		else
+			id_string += ids[i];
+	}
+//window.location = "transfer.php?dbname=" + dbName + "&bookstore=" + $("#search").val() + "&ids=" + id_string;
+	$.ajax({
+		url: "widget.php",
+		type: "POST",
+		data: {type: "buyinfo", courses: id_string},
+		success: function(transport){
+			var data = eval("(" + transport + ")");
+			var bottom;
+			for (var i = 0; i < data.length; i++){
+				var bookImage	 = data[i].bookInfo.image;
+				var bookTitle 	 = data[i].bookInfo.title.substring(0, 40);
+				if (data[i].bookInfo.title.length > 40)
+					bookTitle += "...";
+				var usedImage    = merchantImage(data[i].used[0]);
+				var newImage     = merchantImage(data[i].New[0]);
+				var rentImage    = merchantImage(data[i].rent[0]);
+				var ebookImage   = merchantImage(data[i].ebook[0]);
+				if (i == 0)
+					bottom = "bookRowBottom";
+				else
+					bottom = "bookRow";
+				var smallRows    = merchantSmall(data[i], i, bottom);
+				$("<li class = '" + bottom + "'><div class = 'bookInfo'><img class = 'bookImage' src = '" + 
+					bookImage + 
+					"' /><span class = 'bookTitle'>" 
+					+ bookTitle + 
+					"</span><img onClick = 'morePrices(" + i + ")' class = 'morePrices' src = 'images/more_prices.png' /></div><div class = 'bookOffers'>" + 
+					usedImage + 
+					newImage + 
+					rentImage + 
+					ebookImage + 
+					"</div>" + 
+					"</li>" +
+					smallRows)
+					.insertAfter($("#widgetHeader"));
+			}
+			$(".smallRow").css("display", "none");
+			$("#widgetContainer").slideDown(600);
+			$("html, body").animate({
+				scrollTop: $("#widgetContainer").offset().top
+			}, 600);
+		},
+		failure: function(error){
+			alert("Unable to get book data, please check your internet connection " + error);
+		}
+	});	
+}
+
+function changeSearch(text){
+	$("#search").val(text);
+}
+
+function isbnGo(){
+	$("#isbnContainer").slideDown(600);
+	$("#interfaceContainer").slideUp(600);
+	$("html, body").animate({
+		scrollTop: $("#isbnContainer").offset().top
+	}, 600);
+}
+
+function removeBox(id){
+	$(".courseText").removeShadow();
+	document.getElementById("courseList").removeChild(document.getElementById(id));
+	$(".courseText").dropShadow({left: 0, top: -1});
+}
+
+function isbnInputClicked(){
+	if ($("#isbnInput").val() == "Type your ISBN's here")
+		$("#isbnInput").val("");
+}
+
+function isbnTransfer(){
+	/*var dbName;
+	for (var i = 0; i < colleges.length; i++){
+		if (colleges[i].name == $("#search").val()){
+			dbName = colleges[i].dbName;
+		}
+	}
+	window.location = "transfer.php?req=isbn&isbns=" + $("#isbnInput").val();*/
+	$.ajax({
+		url: "widget.php",
+		type: "POST",
+		data: {type: "buyinfo", isbns: $("#isbnInput").val()},
+		success: function(transport){
+			var data = eval("(" + transport + ")");
+			var bottom;
+			for (var i = 0; i < data.length; i++){
+				var bookImage	 = data[i].bookInfo.image;
+				var bookTitle 	 = data[i].bookInfo.title.substring(0, 40);
+				if (data[i].bookInfo.title.length > 40)
+					bookTitle += "...";
+				var usedImage    = merchantImage(data[i].used[0]);
+				var newImage     = merchantImage(data[i].New[0]);
+				var rentImage    = merchantImage(data[i].rent[0]);
+				var ebookImage   = merchantImage(data[i].ebook[0]);
+				if (i == 0)
+					bottom = "bookRowBottom";
+				else
+					bottom = "bookRow";
+				var smallRows    = merchantSmall(data[i], i, bottom);
+				$("<li class = '" + bottom + "'><div class = 'bookInfo'><img class = 'bookImage' src = '" + 
+					bookImage + 
+					"' /><span class = 'bookTitle'>" 
+					+ bookTitle + 
+					"</span><img onClick = 'morePrices(" + i + ")' class = 'morePrices' src = 'images/more_prices.png' /></div><div class = 'bookOffers'>" + 
+					usedImage + 
+					newImage + 
+					rentImage + 
+					ebookImage + 
+					"</div>" + 
+					"</li>" +
+					smallRows)
+					.insertAfter($("#widgetHeader"));
+			}
+			$(".smallRow").css("display", "none");
+			$("#widgetContainer").slideDown(600);
+			$("html, body").animate({
+				scrollTop: $("#widgetContainer").offset().top
+			}, 600);
+		},
+		failure: function(error){
+			alert("Unable to get book data, please check your internet connection " + error);
+		}
+	})
+}
+
+function morePrices(index){
+	if ($(".smallRow" + index).css("display") == "none"){
+		$(".smallRow" + index).slideDown(600);
+		$("html, body").animate({
+			scrollTop: $(".smallRow" + index).offset().top
+		}, 600);
+	}else{
+		$(".smallRow" + index).slideUp(600);
+	}
+}
+
+function merchantImage(offer){
+	if (offer != null)
+		return "<a target = '_BLANK' class = 'merchantLarge' href = '" + offer.link + "'><img class = 'merchantImage' width = '133px' height = '33px' src = '" + offer.image + "' /> <div class = 'priceImage'><div class = 'priceText'><span class = 'dollar'>$</span>" + offer.price +"</div></div></a>";
+	else
+		return "<a class = 'merchantLarge'><img class = 'merchantImage' width = '133px' height = '33px' src = 'images/blank_merchant.png' /></a>";
+}
+
+function merchantImageSmall(offer){
+	if (offer != null)
+		return "<a target = '_BLANK' class = 'merchantSmall' href = '" + offer.link + "'><img class = 'merchantImageSmall' width = '111px' height = '25px' src = '" + offer.image + "' /> <div class = 'priceImageSmall'><div class = 'priceText'><span class = 'dollar'>$</span>" + offer.price +"</div></div></a>";
+		else
+			return "<a class = 'merchantSmall'><img class = 'merchantImage' width = '133px' height = '33px' src = 'images/blank_merchant_small.png' /></a>";
+}
+
+function merchantSmall(offers, i){
+	var rows = "";
+	var row, length;
+	
+	if (offers.used.length > offers.New.length)
+		if (offers.rent.length > offers.used.length)
+			if (offers.ebook.length > offers.rent.length)
+				length = offers.ebook.length;
+			else
+				length = offers.rent.length;
+		else if (offers.ebook.length > offers.used.length)
+			length = offers.ebook.length;
+		else
+			length = offers.used.length
+	else if (offers.rent.length > offers.New.length)
+		if (offers.ebook.length > offers.rent.length)
+			length = offers.ebook.length;
+		else
+			length = offers.rent.length;
+	else	
+		length = offers.New.length;
+		
+	for (var j = 1; j < length; j++){
+		row = "<li class = 'smallRow smallRow" + i + "'>" +
+			  merchantImageSmall(offers.used[j]) + 
+			  merchantImageSmall(offers.New[j]) + 
+			  merchantImageSmall(offers.rent[j]) + 
+			  merchantImageSmall(offers.ebook[j]) +
+			  "</li>";
+		rows += row;
+	}
+	return rows + "</div>";
+}
+
+function createPopup(url) {
+	newwindow=window.open(url,'University_Bookstore','scrollbars=1, height=600,width=800');
+	if (window.focus) {newwindow.focus()}
+		return false;
+}
+
+function clearUniversity(){
+	if ($("#search").val() == "Type in your University")
+		document.getElementById('search').value='';
+}
+
+</script>
+
+<body>
+<div id = "bg"><img id = "background_image" src = "images/background.png" width = "100%" height = "100%" /></div>
+
+	<div id = "wrapper">
+    	<div id = "header">
+       <img id = "logo_img" src = "images/logo.png" />
+           	<!--<img id = "nav_img" src = "images/nav.png" usemap = "#nav_map" border = "0" />-->
+		<map name = "nav_map">
+		  <area shape = "rect" coords = "0,0,57,16" href = "index.html">
+		  <area shape = "rect" coords = "57,0,144,16" href = "about.html">
+		</map>
+        </div>
+        <div id = "update"></div>
+        <div id = "content">
+        	<ol id = "content_top" class = "content_list">
+        		<li class = "content_list_item"><img id = "genie" src = "images/genie.png" /></li>
+            	<li class = "content_list_item"><img id = "bubble" src = "images/bubble.png" /></li>
+            </ol>
+            <ol id = "content_bottom_index" class = "content_list">
+            	<li id = "search_item" class = ""><div id = "searchContainer" class = "text"><input id = "search" onfocus = "clearUniversity()" type = "text" title = "Search your University!" value = "Type in your University"></input></div>
+					<img id = "goImg" class = "hand" src = "images/next_step.png" onClick = "goClick()" />
+					<div id = "popSearches">Popular Searches: "<span class = "popular hand" onClick = "changeSearch('George Washington University')">George Washington University</span>", "<span class = "popular hand" onClick = "changeSearch('Emory University')">Emory</span>", "<span class = "popular hand" onClick = "changeSearch('Berkeley')">Berkeley</span>"</div>
+				</li>
+				<li class = "isbns"><img class = "already" src = "images/already.png" /><img class = "isbn_btn hand" src = "images/search.png" onClick = "isbnGo()" /></li>
+            </ol>
+			<div id = "interfaceContainer" class = "content_list">
+				<div id = "university"></div>
+				<ol id = "interface"> 
+					<li id = "department_box" class = "interface_box" style = "display:none"><select id = "department_select" class = "combobox">
+					</select></li>
+					<li id = "course_box" class = "interface_box" style = "display:none"><select id = "course_select" class = "combobox">
+								
+					</select></li><img id = "selectcoursebox_grey" src = "images/selectcourse_grey.png" />
+					<li id = "section_box" class = "interface_box" style = "display:none"><select id = "section_select" class = "combobox">
+					</select></li><img id = "selectsectionbox_grey" src = "images/selectsection_grey.png" />						
+				</ol>
+				<ol id = "courses" style = "display:none">
+					<li id = "youCourses">My courses</li>
+					<li id = "courseList"></li>
+				</ol>
+				<img id = "search_btn" onClick = "interfaceGo()" class = "hand" src = "images/searchbtn.png" />
+				<!--<div class = "isbns"><img class = "already" src = "images/already.png" /><img class = "isbn_btn" src = "images/search.png" onClick = "isbnGo()" /></div>-->
+			</div>  
+			<div id = "isbnContainer" class = "">
+				<div style = "float: left"><input id = "isbnInput" onClick = "isbnInputClicked()" value = "Type your ISBN's here"></input></div> <img id = "searchBooks" class = "hand" onClick = "isbnTransfer()" src = "images/searchbooks.png" />
+			</div>
+			<ul id = "widgetContainer" class = "content_list">
+				<li id = "widgetHeader"></li>
+				<li id = "widgetBottom"></li>
+			</ul>
+        </div>
+    	<div id = "footer">
+    		
+   		</div>
+	</div>
+
+</body>
+</html>

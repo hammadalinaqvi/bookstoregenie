@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+		<script src="http://ajax.microsoft.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js"></script>		
+		<script id = 'isbnTemplate' type = "text/x-jquery-tmpl">
+			<li class = 'bookRow'>
+				<div>
+					<h3>${data}</h3>
+				</div></li>
+		</script>
+		<script type = "text/javascript" language = "JavaScript">
+			$(document).ready(function(){
+				$("#wrapper").delegate("#convertButton", "click", function(){
+					$.mobile.pageLoading();
+					var params = {
+						"isbn": $("#isbn").val()
+					};
+					$.ajax({
+						url: "isbn-converter.php",
+						type: "post",
+						data: params,
+						success: function(data){
+							$.mobile.pageLoading(true);
+							$("#isbnTemplate").tmpl({"data" : data}).prependTo("#output").page();
+						},
+						failure: function(error){
+							alert("Unable to Convert ISBN, server returned " + error);
+						}
+					});
+				});
+			});
+		</script>
+	</head>
+	<body data-role="page">
+		<div data-role="header">
+			<h1>ISBN convertor</h1>
+		</div>
+		<div id = 'wrapper' data-role="content">
+			<div id = 'form'>
+			<input type = "text" id = "isbn" ></input>
+			<a href="#" id = 'convertButton' data-role="button" data-icon="search">Convert</a>
+			</div>
+			<ul id = "output" style="margin-top: 30px;" data-role='listview'>
+			</ul>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,595 @@
+#wrapper{
+	position: relative;
+	z-index: 1;
+	width: 1107px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#header{
+	padding-top: 10px;
+}
+
+#logo_img{
+	position: relative; 
+	left: -280px;
+}
+
+#nav_img{
+	position: relative;
+	left: 100px;
+}
+
+#notice{
+  font-size: 30px;
+  position: relative;
+  left: -100px;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#bookIframe{
+	position: relative;
+	margin-top: 0px;
+	left: -670px;
+	width: 525px;
+	float: left;
+}
+#bookIframe_bn{
+	position: relative;
+	margin-top: 170px;
+	left: -670px;
+	width: 525px;
+	float: left;
+}
+#iframeBorder{
+	position: relative;
+	top: -70px;
+	width: 800px;
+	float: left;
+}
+#iframeBorder_bn{
+	margin-top: 100px;
+	width: 800px;
+	float: left;
+}
+
+#iframe{}
+
+
+
+#super{
+  font-size: 9px;
+}
+
+.text{
+  font-family: Verdana, Geneva, sans-serif;
+  width: 760px;
+  font-size: 18px;
+  margin-left: 200px;
+}
+
+#about_bottom{
+  border-color: #ff970f;
+  background-color: #ffe1bb;
+  border: 1px solid;
+}
+
+
+#footer{
+	width: 1107px;
+	height: 167px;
+	padding-top: 50px;
+}
+body{
+	height: 100%;
+
+}
+#genie{
+	width: 151px;
+}
+#bubble{
+	width: 719px;
+	padding-left: 25px;
+}
+#quote{
+	padding-left: 30px;
+}
+#bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.text{
+	cursor:pointer;
+	text-align: left;
+}
+
+.content_list_item{
+	float: left;
+}
+
+#content_top{
+	width: 900px;
+	padding-left: 100px;
+}
+
+#content_bottom{
+	padding-left: 210px;
+}
+
+#content_bottom_index{
+	margin-left: 50px;
+}
+#content_bottom_isbn{
+	position: relative;
+	right: 100px;
+	top: -125px;
+	width: 1800px;
+}
+#content_bottom_buy{
+	position: relative;
+	padding-left: 40px;
+	top: 10px;
+}
+.widget{
+}
+.up{
+	position: relative;
+	top: -400px;
+}
+#checkoutLabel{
+	margin-left: 10px;
+	font: Georgia;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#backgroundPopup{  
+	display:none;  
+	position:fixed;  
+	_position:absolute; /* hack for internet explorer 6*/  
+	height:100%;  
+	width:100%;  
+	top:0;  
+	left:0;  
+	background:#000000;  
+	border:1px solid #cecece;  
+	z-index:1;  
+}
+
+#popupContact{  
+display:none;  
+position:fixed;  
+_position:absolute; /* hack for internet explorer 6*/  
+height:150px;  
+width:150px;  
+background:#FFFFFF;  
+border:2px solid #cecece;  
+z-index:2;  
+padding:12px;  
+font-size:13px;  
+}  
+
+#popupClose:hover{
+	text-decoration: underline;
+}
+#popupClose{
+	display:block;
+	margin-left: 55px;
+}
+
+#popupContact h1{  
+text-align:left;  
+color:#6FA5FD;  
+font-size:22px;  
+font-weight:700;  
+border-bottom:1px dotted #D3D3D3;  
+padding-bottom:2px;  
+margin-bottom:20px;  
+} 
+ 
+#popupContactClose{  
+font-size:14px;  
+line-height:14px;  
+right:6px;  
+top:4px;  
+position:absolute;  
+color:#6fa5fd;  
+font-weight:700;  
+display:block;  
+}   
+
+.content_list_buy{
+	float: left;
+}
+
+#buyFrom{
+	position: relative;
+	top: -100px;
+}
+
+#widgets{
+	position: relative;
+	top: -90px;
+}
+
+#googleCheckout{
+	position: relative;
+	top: -80px;
+	width: 100px;
+	margin-left: 400px;
+}
+
+.content_list_isbn{
+	float: left;
+}
+
+#isbnWrap{
+	position: relative;
+	top: -805px;
+	left: 600px;
+}
+
+#optionContainer{
+	background-image: url(../images/google_01.png);
+	width: 265px;
+	height: 98px;
+}
+
+#cbaButton1{
+	margin-right: 58px;
+	margin-bottom: 50px;
+}
+
+#item_selection_1{
+	margin-top: 65px;
+	position: relative;
+	left: -70px;
+}
+
+
+.titleContainer{
+	background-image: url(../images/titleauthor.png);
+	width: 265px;
+	height: 111px;
+}
+
+.titleInput{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	margin-left: 50px;
+	margin-top: 12px;
+	border: none transparent;
+	width: 195px;
+	height: 25px;
+	float: left;
+}
+
+.authorInput{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	margin-left: 50px;
+	margin-top: 22px;
+	border: none transparent;
+	width: 195px;
+	height: 25px;
+	float: left;
+}
+
+#form{
+	position: relative;
+	left: -600px;
+	float: left;
+	width: 200px;
+	padding-top: 200px;
+}
+
+#bigButton{
+	position: relative;
+	height: 550px;
+	width: 525px;
+	left: -670px;
+	margin-top: 190px;
+}
+
+.pointer{
+	cursor: hand;
+	cursor: pointer;
+}
+
+#arrow{
+	position: relative;
+	left: -600px;
+	margin-top: 400px;
+	width: 258px;
+	float: left;
+}
+
+#another{
+	position: relative;
+	left: -250px;
+	margin-top: 100px;
+}
+
+#content_list_title{
+	position: relative;
+	left: -200px;
+	font: Myriad;
+	color: #FFFFFF;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#search_item{
+	background-image: url(../images/background_university.png);
+	width: 928px;
+	height: 172px;
+}
+.isbns{
+	position
+	: relative;
+	top: 15px;
+}
+
+.isbn_btn{
+	padding-left: 20px;
+}
+
+.content_list{
+	float: left;	
+	list-style-type: none;
+}
+
+#content{
+	margin-top: 20px;
+}
+
+#logo{
+	position: relative;
+	left: -100px;
+	padding-bottom: 50px;
+}
+
+#content_main{
+	position: relative;
+	top: -60px;
+	z-index: -1;
+}
+
+#go{
+	padding-top: 10px;
+	width: 62px;
+}
+
+#popSearches{
+	font-family: Verdana;
+	position: relative;
+	left: -75px;
+	color: #909798;
+	font-size: 12px;
+}
+
+.popular{
+	font-family: Verdana;
+	text-decoration: underline;
+	color: #51595b;
+	font-size: 12px;
+}
+
+.hand{
+	cursor: pointer;
+}
+
+#goImg{
+	width: 158px;
+	height: 61px;
+	margin-top: 40px;
+}
+
+#searchContainer{
+	background-image: url(../images/search_box.png);
+	margin-top: 45px;
+	margin-left: 70px;
+	width: 630px;
+	height: 53px;
+	float: left;
+}
+.isbnContainer{
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 238px;
+	height: 38px;
+	background-image: url(../images/isbn_bg.png);
+}
+
+.isbnInput{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	padding-left: 30px;
+	border: none transparent;
+	width: 208px;
+	height: 38px;
+	float: left;
+}
+
+.isbn_item{
+	background-image: url(../images/isbn_box.png);
+	width: 265px;
+	height: 65px;
+}
+
+.hidden{
+	display: none;
+}
+
+#search{
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	background: none;
+	border: none transparent;
+	width: 620px;
+	height: 52px;
+	float: left;
+	position: relative;
+	z-index: 10;
+	padding-left: 10px;
+}
+
+.autocomplete {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14pt;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    cursor: default;
+    overflow: auto;
+    overflow-x: hidden;
+	z-index: 1000;
+}
+
+.autocomplete_item {
+    padding: 1px;
+    padding-left: 5px;
+    color: black;
+    width: 100%;
+}
+
+.autocomplete_item_highlighted {
+    padding: 1px;
+    padding-left: 5px;
+    color: white;
+    background-color: #0A246A;
+}
+
+#interfaceContainer{
+	background-image: url(../images/interfacebg.png);
+	width: 928px;
+	height: 286px;
+	text-align: left;
+	font-family: Arial;
+	margin-left: 90px;
+	margin-top: 30px;
+}
+
+#university{
+	font: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	color: #848b8e;
+	width: 928px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#interface{
+	float: left;
+	width: 900px;
+	list-style-type: none;
+	padding-top: 30px;
+}
+
+.interface_box{
+	width: 300px;
+	float: left;
+}
+
+.courseX{
+	width: 22px;
+	float: left;
+	padding-top: 8px;
+}
+
+.course{
+	margin-left: 5px;
+	margin-top: 5px;
+	display: inline;
+	width: 135px;
+	height: 43px;
+	background-image: url(../images/coursebg.png);
+	float: left;
+}
+
+.courseText{
+	width: 100px;
+	font: Arial;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+#courses{
+	width: 670px;
+	float: left;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+#courseList{
+	width: 670px;
+	height: 53px;
+	background-image: url(../images/courseoutline.png);
+}
+
+#search_btn{
+	width: 168px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+#youCourses{
+	font-size: 15pt;
+	font: Arial;
+	font-weight: bold;
+	color: #6e7b7b;
+}
+
+#isbnContainer{
+	background-image: url(../images/isbnbg.png);
+	width: 928px;
+	height: 170px;
+	margin-left: 90px;
+}
+
+#isbnInput{
+	text-align: left;
+	background-image: url(../images/isbninput.png);
+	width: 620px;
+	height: 51px;
+	position: relative;
+	font-size: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	border: none transparent;
+	padding-left: 10px;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+
+#searchBooks{
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+#isbnIntro{
+	text-align: left;
+	font-family: Verdana, Geneva;
+	font-size: 13px;
+	padding-top: 30px;
+	padding-left: 40px;
+}

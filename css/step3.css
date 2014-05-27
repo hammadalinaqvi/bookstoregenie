@@ -1,0 +1,290 @@
+
+/* Search Form */
+
+.search h2 {
+	font-size: 30px;
+	color: #515a5c;
+	width: 600px;
+	margin: 75px auto 0px auto;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+.search form {
+	 width: 650px;
+	margin: 10px auto 85px auto;
+	background: #bde2ea;
+	display: block;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+
+.search form input#searchSubmit {
+	width: 130px;
+	padding: 13px 0;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #fff;
+	text-shadow: 0px -1px 0px #5baf00;
+	border: solid 1px #5baf00;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	-moz-border-radius: 25px;
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center top;
+	margin-top: -47px;
+	margin-left: 517px;
+	display: block;
+	height: 43px;
+	position: absolute;
+}
+
+.search form input#searchInput {
+	width: 615px;
+	margin: 4px;
+	border: solid 1px #6f99a2;
+	padding: 13px;
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-khtml-border-radius: 25px;
+	-moz-border-radius: 25px;
+	line-height: 15px;
+	font-size: 15px;
+	color: #48585b;
+	height: 15px;
+	font-weight: bold;
+}
+
+.search form input#searchSubmit:hover {
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center center;
+}
+
+.search form input#searchSubmit:active {
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center bottom;
+}
+
+
+/* Left Column */
+
+.left-col {
+	width: 720px;
+	float: left;
+	margin: 25px 0;
+}
+
+.stepThree {
+	background: #ecf6fb;
+	border: solid 1px #bad1da;
+}
+
+.stepThree h2 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #333f45;
+	width: 450px;
+	float: left;
+	margin: 30px 25px;
+}
+
+.stepThree .action {
+	width: 150px;
+	display: block;
+	text-decoration: none;
+	float: right;
+	margin: 25px;
+	text-align: center;
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center top;
+	padding: 13px 0;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 15px;
+	color: #fff;
+	text-shadow: 0px -1px 0px #5baf00;
+	border: solid 1px #5baf00;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+.stepThree .action:hover {
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center center;
+}
+
+.stepThree .action:active {
+	background: url(../images/step3_images/actionBg.jpg) repeat-x center bottom;
+}
+
+.table .head {
+	border: solid 1px #808b90;
+	background: url(../images/step3_images/tableHead.jpg) repeat-x center top;
+}
+
+.table .head .check {
+	border-right: solid 1px #808b90;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.table .head a.remove {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333f45;
+	float: left;
+	line-height: 14px;
+	margin: 14px 0px 0px 15px;
+}
+
+.table .book {
+	background: #fff;
+	border-bottom: solid 1px #bad1da;
+}
+
+.table .book .check {
+	background: #fff3ce;
+	text-align: center;
+	padding: 28px 0;
+}
+
+.table .book .cover {
+	text-align: center;
+	padding: 7px 0px 0px 0px;
+}
+
+.table .book .title {
+	padding: 17px;
+	font-style: italic;
+	color: #9da7ac;
+	width: 260px;
+	font-size: 13px;
+}
+
+.table .book .title strong {
+	color: #212225;
+	font-size: 15px;
+	display: block;
+	font-weight: bold;
+}
+
+.table .book .cover strong {
+	display: block;
+	position: absolute;
+	background: #ff3721;
+	font-size: 10px;
+	color: #fff;
+	display: block;
+	font-family: Verdana;
+	width: 20px;
+	padding: 4px 0;
+	margin: -65px 0px 0px 35px;
+	border: solid 1px #ad1313;
+	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-khtml-border-radius: 30px;
+	-moz-border-radius: 30px;
+}
+
+.table .book .new, .table .book .used {
+	font-size: 14px;
+	font-weight: bold;
+	color: #212225;
+	padding: 10px;
+	width: 100px;
+}
+
+.table .book .new input, .table .book .used input {
+	width: 50px;
+	border: solid 1px #bad1da;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-moz-border-radius: 5px;
+	background: #ecf6fb;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #77868e;
+	line-height: 16px;
+	padding: 14px 0;
+	margin-right: 10px;
+}
+
+.table .book .price {
+	color: #ed6a23;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 25px;
+	width: 40px;
+	line-height: 20px;
+}
+
+.table .check {
+	width: 30px;
+	float: left;
+}
+
+.table .cover {
+	width: 60px;
+	float: left;
+}
+
+.table .title {
+	width: 320px;
+	float: left;
+}
+
+.table .used, .table .new {
+	width: 110px;
+	float: left;
+}
+
+.table .price {
+	width: 90px;
+	float: left;
+}
+
+.footer {
+	border-bottom: solid 1px #bad1da;
+}
+
+.footer .check {
+	padding: 0px;
+	border-left: none;
+	padding: 20px 0px;
+}
+
+.footer .cover {
+	width: 40px;
+}
+
+.footer .title {
+	width: 280px;
+}
+
+.footer .new, .footer .used {
+	width: 100px;
+}
+
+.footer .cover, .footer .title, .footer .used, .footer .new, .footer .price {
+	border-left: solid 1px #bad1da;
+	color: #7f929c;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.footer div strong {
+	color: #333f45;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	line-height: 18px;
+}
+
+.footer .price {
+	width: 30px;
+	padding: 20px 15px;
+}

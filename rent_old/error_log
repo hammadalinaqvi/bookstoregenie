@@ -1,0 +1,812 @@
+[22-Aug-2011 21:45:16] PHP Parse error:  syntax error, unexpected '<' in /home/jteplitz/public_html/testh/index.php on line 72
+[23-Aug-2011 01:07:15] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home/jteplitz/public_html/testh/index.php on line 74
+[23-Aug-2011 01:18:38] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 01:20:52] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/testh/index.php on line 86
+[23-Aug-2011 01:21:12] PHP Warning:  include(../checkPrices233.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 5
+[23-Aug-2011 01:21:12] PHP Warning:  include(../checkPrices233.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 5
+[23-Aug-2011 01:21:12] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../checkPrices233.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jteplitz/public_html/testh/index.php on line 5
+[23-Aug-2011 01:21:13] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/testh/index.php on line 86
+[23-Aug-2011 01:21:22] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/testh/index.php on line 86
+[23-Aug-2011 01:22:07] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/testh/index.php on line 86
+[23-Aug-2011 01:24:04] PHP Fatal error:  Cannot redeclare class book in /home/jteplitz/public_html/checkPrices2.php on line 3
+[23-Aug-2011 01:46:50] PHP Warning:  array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object in /home/jteplitz/public_html/testh/index.php on line 80
+[23-Aug-2011 01:46:51] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 73527116 bytes) in /home/jteplitz/public_html/testh/index.php on line 91
+[23-Aug-2011 02:01:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/jteplitz/public_html/rentalPrices.php:131) in /home/jteplitz/public_html/testh/index.php on line 32
+[23-Aug-2011 02:01:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/rentalPrices.php:131) in /home/jteplitz/public_html/testh/index.php on line 32
+[23-Aug-2011 02:21:17] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 02:21:45] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 83
+[23-Aug-2011 02:22:27] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 02:25:37] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:25:40] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:25:41] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:26:14] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:32:52] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 02:33:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 02:33:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 84
+[23-Aug-2011 02:33:49] PHP Fatal error:  main() [<a href='function.main'>function.main</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:34:17] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/jteplitz/public_html/testh/index.php on line 85
+[23-Aug-2011 02:38:32] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/testh/index.php on line 2
+[23-Aug-2011 22:19:10] PHP Warning:  include(xajax/xajax_core/xajax.inc.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 12
+[23-Aug-2011 22:19:10] PHP Warning:  include(xajax/xajax_core/xajax.inc.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 12
+[23-Aug-2011 22:19:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'xajax/xajax_core/xajax.inc.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jteplitz/public_html/testh/index.php on line 12
+[23-Aug-2011 22:19:10] PHP Fatal error:  Class 'xajax' not found in /home/jteplitz/public_html/testh/index.php on line 14
+[24-Aug-2011 00:03:47] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home/jteplitz/public_html/testh/index.php on line 12
+[24-Aug-2011 13:31:25] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:31:53] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:33:14] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:34:52] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 43
+[24-Aug-2011 13:37:49] PHP Fatal error:  Class 'Book' not found in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:38:12] PHP Fatal error:  Class 'Book' not found in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:38:29] PHP Fatal error:  Class 'Book' not found in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:38:47] PHP Fatal error:  Class 'Book' not found in /home/jteplitz/public_html/testh/index.php on line 42
+[24-Aug-2011 13:43:40] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 46
+[24-Aug-2011 13:46:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 45
+[24-Aug-2011 13:47:26] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 46
+[24-Aug-2011 13:47:46] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 47
+[24-Aug-2011 13:50:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rentalPrices.php:131) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[24-Aug-2011 14:02:35] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 62
+[24-Aug-2011 14:02:56] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 62
+[24-Aug-2011 14:28:35] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 62
+[24-Aug-2011 14:29:55] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 62
+[24-Aug-2011 14:38:52] PHP Warning:  unserialize() expects parameter 1 to be string, object given in /home/jteplitz/public_html/testh/index.php on line 58
+[24-Aug-2011 14:38:52] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:58) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[24-Aug-2011 15:58:14] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 63
+[24-Aug-2011 15:59:56] PHP Fatal error:  Call to undefined function vardump() in /home/jteplitz/public_html/testh/index.php on line 63
+[24-Aug-2011 17:01:54] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 54
+[24-Aug-2011 17:03:31] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 54
+[25-Aug-2011 00:08:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 39
+[25-Aug-2011 00:08:25] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/jteplitz/public_html/testh/index.php on line 47
+[25-Aug-2011 00:08:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 39
+[25-Aug-2011 00:08:43] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/jteplitz/public_html/testh/index.php on line 47
+[25-Aug-2011 00:09:02] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/jteplitz/public_html/testh/index.php on line 49
+[25-Aug-2011 00:09:44] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 49
+[25-Aug-2011 00:09:51] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 49
+[25-Aug-2011 00:11:53] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:12:16] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:12:54] PHP Fatal error:  Call to a member function getTitle() on a non-object in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:15:41] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:16:32] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:16:59] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:17:13] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 50
+[25-Aug-2011 00:21:47] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 51
+[25-Aug-2011 00:22:06] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 51
+[25-Aug-2011 00:23:08] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 52
+[25-Aug-2011 00:24:23] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 107
+[25-Aug-2011 00:25:29] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 51
+[25-Aug-2011 00:26:41] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 106
+[25-Aug-2011 00:27:00] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 106
+[25-Aug-2011 00:28:03] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 106
+[25-Aug-2011 00:29:24] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 105
+[25-Aug-2011 00:29:48] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 106
+[25-Aug-2011 00:31:24] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 51
+[25-Aug-2011 00:39:24] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 48
+[25-Aug-2011 00:39:40] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 108
+[25-Aug-2011 00:40:41] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 48
+[25-Aug-2011 00:41:25] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 48
+[25-Aug-2011 00:42:23] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 108
+[25-Aug-2011 00:43:34] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 48
+[25-Aug-2011 00:48:30] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 108
+[25-Aug-2011 00:48:54] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 48
+[25-Aug-2011 00:51:36] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 58
+[25-Aug-2011 00:55:18] PHP Warning:  unserialize() expects parameter 1 to be string, object given in /home/jteplitz/public_html/testh/index.php on line 116
+[25-Aug-2011 00:55:18] PHP Fatal error:  Call to a member function getAuthor() on a non-object in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 00:55:39] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 00:56:30] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 00:57:48] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 00:59:51] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 01:01:25] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 01:04:48] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 01:06:56] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 01:08:47] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 59
+[25-Aug-2011 01:13:45] PHP Fatal error:  addNew() [<a href='function.addnew'>function.addnew</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 59
+[25-Aug-2011 01:16:02] PHP Warning:  unserialize() expects parameter 1 to be string, object given in /home/jteplitz/public_html/testh/index.php on line 117
+[25-Aug-2011 01:16:02] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 122
+[25-Aug-2011 01:18:25] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 122
+[25-Aug-2011 01:20:07] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 122
+[25-Aug-2011 01:20:35] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 122
+[25-Aug-2011 01:21:34] PHP Fatal error:  removeBookFromList() [<a href='function.removebookfromlist'>function.removebookfromlist</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 122
+[25-Aug-2011 15:03:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:03:27] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:03:54] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:03:54] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:03:56] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:03:56] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:04:04] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:04:04] PHP Fatal error:  Call to undefined method stdClass::getAuthor() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:08:28] PHP Parse error:  syntax error, unexpected ')', expecting '&' or T_VARIABLE in /home/jteplitz/public_html/testh/index.php on line 68
+[25-Aug-2011 15:44:18] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:44:33] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'decreaseNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:45:26] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:45:32] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'decreaseNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:45:33] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:45:34] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'decreaseNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:14] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:16] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'decreaseNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:18] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:19] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'decreaseNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:24] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:46:52] PHP Warning:  call_user_func_array() [<a href='function.call-user-func-array'>function.call-user-func-array</a>]: First argument is expected to be a valid callback, 'addNew' was given in /home/jteplitz/public_html/xajax/xajax_core/plugin_layer/support/xajaxUserFunction.inc.php on line 237
+[25-Aug-2011 15:48:15] PHP Fatal error:  Call to undefined method Book::addRent() in /home/jteplitz/public_html/testh/index.php on line 129
+[25-Aug-2011 15:48:18] PHP Fatal error:  Call to undefined method Book::decreaseRent() in /home/jteplitz/public_html/testh/index.php on line 163
+[25-Aug-2011 15:49:13] PHP Fatal error:  Call to undefined method Book::addRent() in /home/jteplitz/public_html/testh/index.php on line 129
+[25-Aug-2011 15:49:14] PHP Fatal error:  Call to undefined method Book::addRent() in /home/jteplitz/public_html/testh/index.php on line 129
+[25-Aug-2011 15:49:19] PHP Fatal error:  Call to undefined method Book::decreaseRent() in /home/jteplitz/public_html/testh/index.php on line 163
+[25-Aug-2011 15:49:19] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 145
+[25-Aug-2011 15:49:19] PHP Fatal error:  Call to undefined method stdClass::decreaseRent() in /home/jteplitz/public_html/testh/index.php on line 163
+[25-Aug-2011 15:49:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:49:21] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:49:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:49:27] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:50:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 78
+[25-Aug-2011 15:50:32] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 96
+[25-Aug-2011 15:50:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 78
+[25-Aug-2011 15:50:33] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 96
+[25-Aug-2011 15:52:16] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:52:16] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:52:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:52:24] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:52:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 78
+[25-Aug-2011 15:52:27] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 96
+[25-Aug-2011 15:52:28] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 78
+[25-Aug-2011 15:52:28] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 96
+[25-Aug-2011 15:52:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 15:52:32] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 15:52:45] PHP Fatal error:  Call to undefined method Book::addRent() in /home/jteplitz/public_html/testh/index.php on line 129
+[25-Aug-2011 15:52:50] PHP Fatal error:  Call to undefined method Book::decreaseRent() in /home/jteplitz/public_html/testh/index.php on line 163
+[25-Aug-2011 15:57:41] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 15:57:41] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 15:58:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 15:58:21] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 15:58:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 15:58:32] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 15:58:35] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 15:58:35] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 15:59:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 15:59:20] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 15:59:22] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 15:59:22] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 15:59:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 15:59:26] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:01:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:01:15] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:02:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:02:20] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:02:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:02:20] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:10:00] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:10:00] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:10:00] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:10:00] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:10:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:10:10] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:10:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:10:10] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:10:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:10:10] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:10:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:15] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:15] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:16] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:16] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:17] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:17] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:17] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:18] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:18] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:18] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:18] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:20] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:10:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:10:21] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:01] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:11:01] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:11:07] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:07] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:07] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:07] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:08] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:08] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:08] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:08] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:08] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:08] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:09] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:09] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:11:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:11:10] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:12:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:12:33] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:12:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:12:33] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:12:34] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:12:34] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:16:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:16:30] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:16:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:16:33] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:16:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:16:36] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:17:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 16:17:02] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 16:17:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 16:17:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 16:17:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:06] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:07] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:07] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:10] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:11] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:11] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:12] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:12] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:15] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:16] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:17] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:17] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:17] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:17] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:17:18] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:17:19] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 160
+[25-Aug-2011 16:17:19] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 178
+[25-Aug-2011 16:17:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:17:21] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:17:23] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:17:23] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:30:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:30:38] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:30:42] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 43
+[25-Aug-2011 16:30:42] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 61
+[25-Aug-2011 16:30:48] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 83
+[25-Aug-2011 16:30:48] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 101
+[25-Aug-2011 16:32:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 16:32:26] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 16:32:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 16:32:32] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 16:32:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 121
+[25-Aug-2011 16:32:37] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 139
+[25-Aug-2011 23:13:47] PHP Warning:  Missing argument 1 for reloader() in /home/jteplitz/public_html/testh/index.php on line 36
+[25-Aug-2011 23:13:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:36) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:13:49] PHP Warning:  Missing argument 1 for reloader() in /home/jteplitz/public_html/testh/index.php on line 36
+[25-Aug-2011 23:13:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:36) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:13:55] PHP Warning:  Missing argument 1 for reloader() in /home/jteplitz/public_html/testh/index.php on line 36
+[25-Aug-2011 23:13:55] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:36) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:14:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:14:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:19:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:19:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:19:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:19:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:19:47] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:19:47] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:19:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:19:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:20:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:20:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:20:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:20:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:20:25] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:20:25] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:20:29] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:20:29] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:21:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:21:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:21:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:21:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[25-Aug-2011 23:21:22] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 42
+[25-Aug-2011 23:21:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:42) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 00:32:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 153
+[26-Aug-2011 00:32:06] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 165
+[26-Aug-2011 00:32:08] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 186
+[26-Aug-2011 00:32:08] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 204
+[26-Aug-2011 00:32:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 87
+[26-Aug-2011 00:32:09] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 99
+[26-Aug-2011 00:32:12] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 186
+[26-Aug-2011 00:32:12] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 204
+[26-Aug-2011 00:32:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 44
+[26-Aug-2011 00:32:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:44) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 00:32:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 44
+[26-Aug-2011 00:32:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:44) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 02:35:30] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AssociateTag=gLq7IVz5MOj1W70EyKGLL60jod6s0BzQlIIrTipr&amp;AWSAccessKeyId=AKIAJXHGUJZGZSCU2PEA&amp;Operation=ItemLookup&amp;Version=2010-11-01&amp;ItemId=0321550072&amp;ResponseGroup=ItemAttributes,Offers,Images&amp;Timestamp=2011-08-26T07:35:28.000Z&amp;Signature=WQbfkzpKTrhXxUzuEvwQ5zr9h39CBsm%2FF5x7YSY8G9E%3D:1: parser error : Space required after the Public Identifier in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: &lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt; in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:                                                  ^ in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AssociateTag=gLq7IVz5MOj1W70EyKGLL60jod6s0BzQlIIrTipr&amp;AWSAccessKeyId=AKIAJXHGUJZGZSCU2PEA&amp;Operation=ItemLookup&amp;Version=2010-11-01&amp;ItemId=0321550072&amp;ResponseGroup=ItemAttributes,Offers,Images&amp;Timestamp=2011-08-26T07:35:28.000Z&amp;Signature=WQbfkzpKTrhXxUzuEvwQ5zr9h39CBsm%2FF5x7YSY8G9E%3D:1: parser error : SystemLiteral &quot; or ' expected in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: &lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt; in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:                                                  ^ in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AssociateTag=gLq7IVz5MOj1W70EyKGLL60jod6s0BzQlIIrTipr&amp;AWSAccessKeyId=AKIAJXHGUJZGZSCU2PEA&amp;Operation=ItemLookup&amp;Version=2010-11-01&amp;ItemId=0321550072&amp;ResponseGroup=ItemAttributes,Offers,Images&amp;Timestamp=2011-08-26T07:35:28.000Z&amp;Signature=WQbfkzpKTrhXxUzuEvwQ5zr9h39CBsm%2FF5x7YSY8G9E%3D:1: parser error : SYSTEM or PUBLIC, the URI is missing in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: &lt;!DOCTYPE HTML PUBLIC &quot;-//IETF//DTD HTML 2.0//EN&quot;&gt; in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 02:35:31] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:                                                  ^ in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 03:43:23] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 235
+[26-Aug-2011 03:43:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:235) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 03:43:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 356
+[26-Aug-2011 03:43:27] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 374
+[26-Aug-2011 03:43:29] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 356
+[26-Aug-2011 03:43:29] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 374
+[26-Aug-2011 03:43:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 323
+[26-Aug-2011 03:43:30] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 335
+[26-Aug-2011 03:43:31] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 257
+[26-Aug-2011 03:43:31] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 269
+[26-Aug-2011 03:43:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 291
+[26-Aug-2011 03:43:32] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 303
+[26-Aug-2011 03:43:35] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 257
+[26-Aug-2011 03:43:35] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 269
+[26-Aug-2011 03:43:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 257
+[26-Aug-2011 03:43:36] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 269
+[26-Aug-2011 03:43:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 257
+[26-Aug-2011 03:43:36] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 269
+[26-Aug-2011 03:43:39] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 291
+[26-Aug-2011 03:43:39] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 303
+[26-Aug-2011 03:43:39] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 291
+[26-Aug-2011 03:43:39] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 303
+[26-Aug-2011 03:43:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 291
+[26-Aug-2011 03:43:43] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 303
+[26-Aug-2011 03:43:44] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 356
+[26-Aug-2011 03:43:44] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 374
+[26-Aug-2011 03:43:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 323
+[26-Aug-2011 03:43:45] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 335
+[26-Aug-2011 03:43:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 323
+[26-Aug-2011 03:43:45] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 335
+[26-Aug-2011 03:45:42] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 196
+[26-Aug-2011 03:45:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:196) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 03:45:46] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 196
+[26-Aug-2011 03:45:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:196) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 03:45:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 196
+[26-Aug-2011 03:45:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:196) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 03:53:19] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: Couldn't resolve host name in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 03:53:19] PHP Warning:  simplexml_load_file(http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AssociateTag=gLq7IVz5MOj1W70EyKGLL60jod6s0BzQlIIrTipr&amp;AWSAccessKeyId=AKIAJXHGUJZGZSCU2PEA&amp;Operation=ItemLookup&amp;Version=2010-11-01&amp;ItemId=111113040x&amp;ResponseGroup=ItemAttributes,Offers,Images&amp;Timestamp=2011-08-26T08:52:49.000Z&amp;Signature=hXIKMTSzc0qZfrpKAIfb2KuV08xhc4T46Iz0Xj2ZbsM%3D) [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: failed to open stream: operation failed in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 03:53:19] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;http://ecs.amazonaws.com/onca/xml?Service=AWSECommerceService&amp;AssociateTag=gLq7IVz5MOj1W70EyKGLL60jod6s0BzQlIIrTipr&amp;AWSAccessKeyId=AKIAJXHGUJZGZSCU2PEA&amp;Operation=ItemLookup&amp;Version=2010-11-01&amp;ItemId=111113040x&amp;ResponseGroup=ItemAttributes,Offers,Images&amp;Timestamp=2011-08-26T08:52:49.000Z&amp;Signature=hXIKMTSzc0qZfrpKAIfb2KuV08xhc4T46Iz0Xj2ZbsM%3D&quot; in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=111113040x:1: parser error : Document is empty in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=111113040x:1: parser error : Start tag expected, '&lt;' not found in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 03:53:49] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[26-Aug-2011 06:00:52] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/rentalPrices.php on line 87
+[26-Aug-2011 13:37:08] PHP Parse error:  syntax error, unexpected '.' in /home/jteplitz/public_html/testh/index.php on line 50
+[26-Aug-2011 13:37:29] PHP Warning:  include_once(../usr/local/cpanel/3rdparty/lib/php/Mail.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 617
+[26-Aug-2011 13:37:29] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../usr/local/cpanel/3rdparty/lib/php/Mail.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jteplitz/public_html/testh/index.php on line 617
+[26-Aug-2011 13:43:11] PHP Fatal error:  sendAdminEmail() [<a href='function.sendadminemail'>function.sendadminemail</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 60
+[26-Aug-2011 13:43:26] PHP Fatal error:  sendAdminEmail() [<a href='function.sendadminemail'>function.sendadminemail</a>]: The script tried to execute a method or access a property of an incomplete object. Please ensure that the class definition &quot;Book&quot; of the object you are trying to operate on was loaded _before_ unserialize() gets called or provide a __autoload() function to load the class definition  in /home/jteplitz/public_html/testh/index.php on line 60
+[26-Aug-2011 13:44:42] PHP Fatal error:  Class 'Mail' not found in /home/jteplitz/public_html/testh/index.php on line 80
+[26-Aug-2011 13:46:02] PHP Fatal error:  Class 'Mail' not found in /home/jteplitz/public_html/testh/index.php on line 80
+[26-Aug-2011 13:48:41] PHP Fatal error:  Class 'Mail' not found in /home/jteplitz/public_html/testh/index.php on line 80
+[26-Aug-2011 13:52:38] PHP Warning:  require_once(../usr/local/cpanel/3rdparty/lib/php/Mail.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/jteplitz/public_html/testh/index.php on line 49
+[26-Aug-2011 13:52:38] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../usr/local/cpanel/3rdparty/lib/php/Mail.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jteplitz/public_html/testh/index.php on line 49
+[26-Aug-2011 13:55:51] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/testh/index.php on line 2
+[26-Aug-2011 13:55:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/testh/index.php:2) in /home/jteplitz/public_html/testh/index.php on line 3
+[26-Aug-2011 13:55:51] PHP Warning:  session_regenerate_id() [<a href='function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in /home/jteplitz/public_html/testh/index.php on line 4
+[26-Aug-2011 13:57:39] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:39] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:57:39] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:39] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:57:40] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:40] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:57:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 513
+[26-Aug-2011 13:57:43] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 525
+[26-Aug-2011 13:57:46] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:46] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:57:48] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 513
+[26-Aug-2011 13:57:48] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 525
+[26-Aug-2011 13:57:50] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:50] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:57:52] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 513
+[26-Aug-2011 13:57:52] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 525
+[26-Aug-2011 13:57:53] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:57:53] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:59:14] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 513
+[26-Aug-2011 13:59:14] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 525
+[26-Aug-2011 13:59:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 513
+[26-Aug-2011 13:59:15] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 525
+[26-Aug-2011 13:59:16] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:59:16] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:59:19] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 547
+[26-Aug-2011 13:59:19] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 565
+[26-Aug-2011 13:59:19] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 481
+[26-Aug-2011 13:59:19] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 493
+[26-Aug-2011 13:59:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 447
+[26-Aug-2011 13:59:20] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 459
+[26-Aug-2011 14:02:46] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 451
+[26-Aug-2011 14:02:46] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 463
+[26-Aug-2011 14:02:46] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 451
+[26-Aug-2011 14:02:46] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/testh/index.php on line 463
+[26-Aug-2011 14:02:49] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 388
+[26-Aug-2011 14:02:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:388) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[26-Aug-2011 14:33:36] PHP Parse error:  syntax error, unexpected '{' in /home/jteplitz/public_html/testh/index.php on line 75
+[26-Aug-2011 14:33:55] PHP Parse error:  syntax error, unexpected T_STRING in /home/jteplitz/public_html/testh/index.php on line 225
+[26-Aug-2011 15:35:29] PHP Fatal error:  Call to undefined method Book::getgetNewQuantity() in /home/jteplitz/public_html/testh/index.php on line 63
+[26-Aug-2011 18:24:29] PHP Parse error:  syntax error, unexpected '}' in /home/jteplitz/public_html/Book.php on line 48
+[26-Aug-2011 18:47:02] PHP Parse error:  syntax error, unexpected '}' in /home/jteplitz/public_html/Book.php on line 12
+[26-Aug-2011 19:45:51] PHP Parse error:  syntax error, unexpected '/' in /home/jteplitz/public_html/testh/index.php on line 327
+[27-Aug-2011 13:10:34] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=%C2%A09780205035182:2: parser error : Entity 'Acirc' not defined in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:10:35] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:   &lt;errors&gt;    &lt;error&gt;'&amp;Acirc;&amp;nbsp;9780205035182' is not a valid ISBN&lt;/error&gt;  &lt; in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:10:35] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:                              ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:10:35] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=%C2%A09780205035182:2: parser error : Entity 'nbsp' not defined in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:10:35] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:   &lt;errors&gt;    &lt;error&gt;'&amp;Acirc;&amp;nbsp;9780205035182' is not a valid ISBN&lt;/error&gt;  &lt; in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:10:35] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:                                    ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[27-Aug-2011 13:18:35] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 707
+[27-Aug-2011 13:18:35] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/testh/index.php on line 725
+[27-Aug-2011 13:18:57] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 472
+[27-Aug-2011 13:18:57] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:472) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[27-Aug-2011 13:19:00] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/testh/index.php on line 472
+[27-Aug-2011 13:19:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/testh/index.php:472) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[27-Aug-2011 16:44:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 585
+[27-Aug-2011 16:44:03] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:585) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[27-Aug-2011 16:44:12] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 749
+[27-Aug-2011 16:44:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:749) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[27-Aug-2011 16:44:12] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[28-Aug-2011 17:08:55] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 585
+[28-Aug-2011 17:08:55] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:585) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[28-Aug-2011 17:10:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 750
+[28-Aug-2011 17:10:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:750) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[28-Aug-2011 17:10:10] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[28-Aug-2011 17:12:22] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 750
+[28-Aug-2011 17:12:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:750) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[28-Aug-2011 17:12:22] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[29-Aug-2011 00:43:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 641
+[29-Aug-2011 00:43:24] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 653
+[29-Aug-2011 10:28:24] PHP Parse error:  syntax error, unexpected '{' in /home/jteplitz/public_html/rent/index2.php on line 323
+[29-Aug-2011 14:39:14] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0553213695:1: parser error : Document is empty in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0553213695:1: parser error : Start tag expected, '&lt;' not found in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:03] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0553213695:1: parser error : Document is empty in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0553213695:1: parser error : Start tag expected, '&lt;' not found in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 14:40:50] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[29-Aug-2011 17:57:19] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 17:57:28] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 17:57:29] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 17:57:34] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 17:58:56] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 18:00:00] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 20:53:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[29-Aug-2011 20:53:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[29-Aug-2011 20:53:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[29-Aug-2011 20:53:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[29-Aug-2011 20:53:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[29-Aug-2011 20:53:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[29-Aug-2011 20:53:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[29-Aug-2011 20:53:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[29-Aug-2011 22:55:57] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 23:11:18] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 23:12:47] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 23:13:17] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[29-Aug-2011 23:15:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[29-Aug-2011 23:15:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[29-Aug-2011 23:16:15] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[30-Aug-2011 11:01:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 11:01:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:49:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 719
+[30-Aug-2011 13:49:45] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 731
+[30-Aug-2011 13:51:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 13:51:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:51:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 13:51:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:53:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 13:53:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:53:31] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 13:53:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:53:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 13:53:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 13:56:44] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/rentalPrices.php on line 87
+[30-Aug-2011 14:37:25] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 719
+[30-Aug-2011 14:37:25] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 731
+[30-Aug-2011 14:56:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 14:56:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 14:56:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 14:56:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 14:58:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 14:58:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 14:58:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 14:58:26] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:02:46] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:02:46] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:02:53] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:02:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:11:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:11:06] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:13:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:13:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:13:23] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:13:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:13:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:13:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:13:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:13:43] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:14:25] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 753
+[30-Aug-2011 15:14:25] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 771
+[30-Aug-2011 15:15:00] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 15:15:00] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:15:12] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 15:15:12] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:15:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 15:15:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:15:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 15:15:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:20:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:20:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:21:22] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 652
+[30-Aug-2011 15:21:22] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 664
+[30-Aug-2011 15:21:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:21:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:21:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 517
+[30-Aug-2011 15:21:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:517) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:22:11] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:22:11] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 15:22:13] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 15:22:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 16:04:49] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 16:04:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 16:04:49] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 16:04:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 16:04:49] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 16:04:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 16:07:04] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[30-Aug-2011 16:07:10] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[30-Aug-2011 16:07:31] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[30-Aug-2011 16:09:33] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 932
+[30-Aug-2011 17:50:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[30-Aug-2011 17:50:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[30-Aug-2011 23:36:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 652
+[30-Aug-2011 23:36:18] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 664
+[30-Aug-2011 23:38:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 652
+[30-Aug-2011 23:38:38] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 664
+[30-Aug-2011 23:38:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 753
+[30-Aug-2011 23:38:38] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 771
+[30-Aug-2011 23:38:42] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[30-Aug-2011 23:38:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:48:44] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:48:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:50:50] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:50:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:50:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:50:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:14] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:14] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:36] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:36] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:51:48] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:51:48] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:56:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:56:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 11:56:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 11:56:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 12:29:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 652
+[31-Aug-2011 12:29:33] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 667
+[31-Aug-2011 12:36:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 652
+[31-Aug-2011 12:36:37] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 667
+[31-Aug-2011 12:36:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[31-Aug-2011 12:36:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 12:36:58] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[31-Aug-2011 12:36:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 12:37:28] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 587
+[31-Aug-2011 12:37:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:587) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:39:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 760
+[31-Aug-2011 14:39:24] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 779
+[31-Aug-2011 14:39:35] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:39:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:39:56] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:39:56] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:40:01] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:40:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:40:18] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:40:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:40:23] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:40:23] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:40:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:40:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:40:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 14:40:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 14:49:50] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 942
+[31-Aug-2011 14:51:49] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 942
+[31-Aug-2011 14:52:35] PHP Fatal error:  Call to a member function getNewQuantity() on a non-object in /home/jteplitz/public_html/rent/index.php on line 942
+[31-Aug-2011 15:12:34] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 15:12:34] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 15:17:13] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 15:17:39] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 15:18:28] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 15:20:28] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0827603665:1: parser error : Document is empty in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: http://api.campusbooks.com/11/rest/prices?key=CE0001CcX3MiEIf4zN0i&amp;isbn=0827603665:1: parser error : Start tag expected, '&lt;' not found in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]:  in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:01:40] PHP Warning:  simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: ^ in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:03:30] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:06:30] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:11:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:11:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:41:33] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:42:44] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 689
+[31-Aug-2011 16:42:44] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 703
+[31-Aug-2011 16:46:29] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:46:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:46:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:47:24] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:47:39] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:47:39] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:04] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:48:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:04] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:48:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:05] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:48:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:05] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:48:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:05] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 16:48:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 16:48:15] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 16:57:17] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 16:59:42] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 20
+[31-Aug-2011 17:09:17] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[31-Aug-2011 17:35:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 630
+[31-Aug-2011 17:35:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:630) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[31-Aug-2011 17:35:56] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 689
+[31-Aug-2011 17:35:56] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 703
+[31-Aug-2011 17:35:56] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 689
+[31-Aug-2011 17:35:56] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 703
+[31-Aug-2011 18:30:59] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 689
+[31-Aug-2011 18:30:59] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 703
+[31-Aug-2011 20:11:51] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 20:17:59] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 20:18:11] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 20:18:12] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 20:18:36] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 20:49:47] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/jteplitz/public_html/rent/index.php on line 205
+[31-Aug-2011 21:23:00] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[01-Sep-2011 01:30:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 01:30:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 01:30:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 807
+[01-Sep-2011 01:30:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:807) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 01:30:22] PHP Warning:  Unknown: Your script possibly relies on a session side-effect which existed until PHP 4.2.3. Please be advised that the session extension does not consider global variables as a source of data, unless register_globals is enabled. You can disable this functionality and this warning by setting session.bug_compat_42 or session.bug_compat_warn to off, respectively in Unknown on line 0
+[01-Sep-2011 08:39:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 693
+[01-Sep-2011 08:39:44] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 707
+[01-Sep-2011 11:08:14] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 11:08:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 11:08:15] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 11:08:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 15:09:24] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 15:09:24] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 16:12:14] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 656
+[01-Sep-2011 16:12:14] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 671
+[01-Sep-2011 16:12:16] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 764
+[01-Sep-2011 16:12:16] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 783
+[01-Sep-2011 16:12:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 16:12:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 16:12:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 16:12:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 16:12:37] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 16:12:37] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[01-Sep-2011 16:13:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 764
+[01-Sep-2011 16:13:26] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 783
+[01-Sep-2011 16:13:28] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 656
+[01-Sep-2011 16:13:28] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 671
+[01-Sep-2011 16:13:29] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 693
+[01-Sep-2011 16:13:29] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 707
+[01-Sep-2011 16:13:31] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[01-Sep-2011 16:13:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:20] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 764
+[02-Sep-2011 23:55:21] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 783
+[02-Sep-2011 23:55:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:31] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:32] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:32] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:38] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:38] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:40] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:49] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:50] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:50] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:51] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:51] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:55:58] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:55:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[02-Sep-2011 23:56:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:10] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[02-Sep-2011 23:56:10] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:17] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 728
+[02-Sep-2011 23:56:17] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 742
+[02-Sep-2011 23:56:19] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[02-Sep-2011 23:56:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:27] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[02-Sep-2011 23:56:27] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:35] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[02-Sep-2011 23:56:35] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[02-Sep-2011 23:56:42] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 656
+[02-Sep-2011 23:56:42] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 671
+[02-Sep-2011 23:56:43] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 693
+[02-Sep-2011 23:56:43] PHP Fatal error:  Call to undefined method stdClass::decreaseUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 707
+[02-Sep-2011 23:56:45] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[02-Sep-2011 23:56:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[03-Sep-2011 11:29:29] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[03-Sep-2011 12:23:10] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices2.php on line 16
+[05-Sep-2011 22:59:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[05-Sep-2011 22:59:02] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[05-Sep-2011 22:59:09] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[05-Sep-2011 22:59:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[05-Sep-2011 23:04:33] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 634
+[05-Sep-2011 23:04:33] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:634) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 00:09:21] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index2.php on line 517
+[06-Sep-2011 00:09:21] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index2.php:517) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 00:09:22] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index2.php on line 517
+[06-Sep-2011 00:09:22] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index2.php:517) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 11:17:26] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 656
+[06-Sep-2011 11:17:26] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 671
+[06-Sep-2011 11:17:29] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 764
+[06-Sep-2011 11:17:29] PHP Fatal error:  Call to undefined method stdClass::decreaseRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 783
+[06-Sep-2011 18:47:04] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 521
+[06-Sep-2011 18:47:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:521) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 18:53:42] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[06-Sep-2011 18:53:42] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 18:54:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 128
+[06-Sep-2011 18:54:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 158
+[06-Sep-2011 18:54:07] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 212
+[06-Sep-2011 18:54:07] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:128) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[06-Sep-2011 18:54:40] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 591
+[06-Sep-2011 18:54:40] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:591) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[07-Sep-2011 17:27:30] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 946
+[07-Sep-2011 17:27:30] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:946) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[08-Sep-2011 07:36:59] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 968
+[08-Sep-2011 07:37:00] PHP Fatal error:  Call to undefined method stdClass::addUsedQuantity() in /home/jteplitz/public_html/rent/index.php on line 983
+[08-Sep-2011 07:37:01] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:01] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:02] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:02] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:02] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:02] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:03] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:03] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054
+[08-Sep-2011 07:37:04] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 851
+[08-Sep-2011 07:37:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/jteplitz/public_html/rent/index.php:851) in /home/jteplitz/public_html/xajax/xajax_core/xajaxResponse.inc.php on line 1514
+[08-Sep-2011 07:37:06] PHP Warning:  Invalid argument supplied for foreach() in /home/jteplitz/public_html/rent/index.php on line 1040
+[08-Sep-2011 07:37:06] PHP Fatal error:  Call to undefined method stdClass::addRentQuantity() in /home/jteplitz/public_html/rent/index.php on line 1054

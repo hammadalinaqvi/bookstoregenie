@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<div data-role = "page">
+		<script id = 'appointmentTemplate' type = "text/x-jquery-tmpl">
+		<li>
+			<div data-role = "collapsible" data-collapsed="true">
+				<h3>${time}</h3>
+				<p>
+					Meeting ${customer} at ${address} in ${city}, ${state} ${zip}
+					<br />
+					Phone: ${phone}
+				</p>
+			</div>
+		</li>
+	</script>
+	<script type = "text/javascript" language = "JavaScript">
+		var newAppointmentData, db;
+		db = openDatabase("buyback-appointments", "1.0", "Appointment DB", 5 * 1024 * 1024);
+		db.transaction(function (tx){
+			tx.executeSql("CREATE TABLE IF NOT EXISTS appointments (address, city, state, zip, time, id, timestamp, phone, name)");
+		});				
+		function getDatabaseData(tx){
+			tx.executeSql("SELECT * FROM appointments ORDER BY timestamp DESC", [], querySuccess = function(db, results){
+				var length = results.rows.length;
+				for (var i = 0; i < length; i++){
+					$("#appointmentTemplate").tmpl({"time" : results.rows.item(i).time, "customer": results.rows.item(i).name, "address": results.rows.item(i).address, "city": results.rows.item(i).city, "state": results.rows.item(i).state, "zip": results.rows.item(i).zip, "phone": results.rows.item(i).phone}).prependTo("#appointmentList").page();
+				}
+				$.mobile.pageLoading(true);
+			}, dbError = function(error){
+				alert("Error accessing appointment database: " + error);
+			});
+		}
+		
+		function cleanDatabase(tx){
+			var date = new Date();
+			tx.executeSql("DELETE FROM appointments WHERE timestamp < '" + timestamp + "'");
+		}
+		
+		function databaseError(error){
+			alert ("Database error: " + error.message);
+		}
+		
+		function databaseSuccess(){
+			
+		}
+		
+		function getAppointments(){
+			db.transaction(cleanDatabase, databaseError, databaseSuccess);
+			db.readTransaction(getDatabaseData, databaseError, databaseSuccess);
+		}
+		if (newAppointment){
+			var params = {
+				type: "accept",
+				id: newAppointmentId
+			}
+			$.ajax({
+				url: "http://www.bookstoregenie.com/schedule_appointment.php",
+				type: "POST",
+				data: params,
+				success: function(data){
+					
+				},
+				failure: function(error){
+					alert("Unable to confirm Appointment, please check your network connection");
+				}
+			});
+			db.transaction(storeAppointment, databaseError, databaseSuccess);		
+		}else
+			getAppointments();
+		function storeAppointment(tx, data){
+				var data = newAppointmentData;
+				tx.executeSql("INSERT INTO appointments (address, city, state, zip, time, id, timestamp, phone, name) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)", [data[0], data[1], data[2], data[3], data[4], data[5], data[6], data[7], data[8]], function(tx, results){
+					getAppointments();
+				});
+			}
+	</script>
+		<div data-role = "header">
+			<h1>Appointments</h1>
+		</div>
+		<div data-role = "content">
+			<ul id = "appointmentList" data-role = "listview">
+				
+			</ul>
+		</div>
+		<div data-id = "footer" data-role = "footer" data-position = "fixed">
+			<div data-role = "navbar">
+				<ul>
+					<li><a href="buyback.php" data-icon = "home">Home</a></li>
+					<li><a href = "appointment.html" data-icon = "grid" class = "ui-btn-active">Appointments</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>

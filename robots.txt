@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /maintenance/
+Disallow: /contract
+Disallow: /buyback.php

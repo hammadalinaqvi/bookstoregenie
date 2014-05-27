@@ -1,0 +1,274 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>Bookstoregenie</title> 
+  <link href="css/all.css" media="screen" rel="stylesheet" type="text/css" /> 
+<link href="css/filter.css" media="screen" rel="stylesheet" type="text/css" /> 
+<link href="css/index_style.css" media="screen" rel="stylesheet" type="text/css" /> 
+<link href="css/step3.css" media="screen" rel="stylesheet" type="text/css" /> 
+  <meta name="csrf-param" content="authenticity_token"/> 
+<meta name="csrf-token" content="uK5etSng8pH2YFKgokG0J+cjQ8cpwAj57fkTw0tG8vE="/> 
+  <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" /> 
+  
+  <style type="text/css">
+  	/* trigger button */
+#comparePrices {
+	background:transparent url(images/ttgButton.jpg) no-repeat scroll 0 0;
+	display:block;
+	height:45px;
+	overflow:hidden;
+	text-indent:-999em;
+	width:150px;
+	cursor:pointer;
+	float: left;
+	margin: 10px 20px 0 0;
+}
+
+/* tooltip styling */
+.tooltip {
+	display:none;
+	background:url(images/cloud.png);
+	height:90px;
+	padding:10px 20px 0 20px;
+	width:560px;
+	font-size:11px;
+	color:#fff;
+	z-index: 100;
+}
+
+.tooltip .compare{
+	width: 560px;
+	height: 90px;
+	padding-top: 12px;
+	float: left;
+	display: inline;
+}
+
+.tooltip .compare .compareCo{
+	width: 185px;
+	height: 40px;
+	float: left;
+	display: inline;
+}
+
+.tooltip .compare .compareCo img{
+	width: 120px;
+	height: 40px;
+	display: inline;
+	margin: 5px 0 0 0;
+	border: none;
+}
+
+.tooltip .compare .compareCo p{
+	background-color:#6dbad7;
+	border-width:2px;
+	border-color:transparent;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 12px 0 0 10px;
+	padding: 5px;
+	float: left;
+	
+}
+
+.tooltip img{
+	float: left;
+	margin: 0;
+}
+
+/* a .label element inside tooltip */
+.tooltip .price {
+	color:#444;
+	width:35px;
+	
+}
+
+  </style>
+  
+   
+ <script src="js/prototype.js" type="text/javascript"></script> 
+<script src="js/effects.js" type="text/javascript"></script> 
+<script src="js/dragdrop.js" type="text/javascript"></script> 
+<script src="js/controls.js" type="text/javascript"></script> 
+<script src="js/rails.js" type="text/javascript"></script> 
+<script src="js/application.js" type="text/javascript"></script> 
+
+	<!-- include the Tools -->
+	<script src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+
+</head> 
+ 
+
+ 
+<body class="in" onload="setCookie('results','(0073527114,0,1);','10'); updateTotal();"> 
+				<div class="header"> 
+			<h1><a href="/home/index" title="BookStoreGenie">BookStoreGenie</a></h1> 
+			<ul id="main-nav"> 
+				<li><a href="#" title="Buy a Book">Buy a Book</a></li> 
+				<li id="selected"><a href="#" title="Sell a Book">Sell a Book</a></li> 
+			</ul> 
+			<ul id="second-nav"> 
+				<li><a href="/home/index" title="Home">Home</a></li> 
+				<li><a href="/home/cart" title="Cart">Cart</a></li> 
+			</ul> 
+			<div style="clear:both;"></div> 
+		</div> 
+ 
+ 
+		<div class="heading"> 
+			<strong>Search Results</strong> 
+			<h2>1 of your books found!</strong> 
+		</div> 
+ 
+		<div class="wrap"> 
+			<div class="stepTwo"> 
+				<div class="left-col"> 
+					<form class="inSearch" action="results" onSubmit=" return validateISBN('inSearchText','true');"> 
+						<input type="text" id="inSearchText" name="isbn" value="Add more books" class="text" onClick="if(this.value=='Add more books') this.value='';" /> 
+						<input type="submit" value="Add books" class="button" onClick = "addToCart();"/> 
+						<div style="clear:both;"></div> 
+						<div id="div-error" style="padding-left: 10px; color: red;"></div> 
+					</form> 
+				<div class="bookResults"> 
+						<div id="book-start" /> 
+						<div class="book" id="book0073527114"> 
+							<div class="head"> 
+								<div class="isbn"> 
+									ISBN <strong>0073527114</strong> 
+								</div> 
+								<a href="#-remove-this-book" class="remove" onClick="removeBook('0073527114'); return false;" >Remove this book</a> 
+							</div> 
+							<div class="content"> 
+								<img src="http://ecx.images-amazon.com/images/I/51EyXkNbjgL._SL75_.jpg" alt="Book Cover" /> 
+								<div class="title"> 
+									<small>William Lanen, Shannon Anderson, Michael Maher</small> 
+									<strong>Fundamentals of Cost Accounting</strong> 
+								</div> 
+								<div class="prices"> 
+									<div class="new"> 
+										<div class="counter"> 
+											<input type="text" id="newpcs0073527114" value="0" DISABLED/> 
+											<a href="#" title="+" onClick="increment('newpcs0073527114'); return false;" class="plus">+</a> 
+											<a href="#" title="-" onClick="decrement('newpcs0073527114'); return false;" class="minus">-</a> 
+										</div> 
+										<div class="price"> 
+											<small>New</small> 
+											<span id="newPrice0073527114" > 
+													$35.22
+											</span> 
+										</div> 
+									</div> 
+									<div class="used"> 
+										<div class="counter"> 
+											<input type="text" id="usedpcs0073527114" value="1" DISABLED/> 
+											<a href="#" title="+" onClick="increment('usedpcs0073527114'); return  false;" class="plus">+</a> 
+											<a href="#" title="-" onClick="decrement('usedpcs0073527114'); return false;" class="minus">-</a> 
+										</div> 
+										<div class="price"> 
+											<small>Used</small> 
+											<span id="usedPrice0073527114"> 
+													$28.08
+											</span> 
+										</div> 
+									</div> 
+									<a id="comparePrices"></a>
+									<div class="tooltip">
+										<div class="compare">
+											<div class="compareCo">
+												<a href="http://www.chegg.com/"><img src="images/chegg.jpg" alt="Chegg"/></a><p>$30</p>
+											</div>
+											<div class="compareCo">
+												<a href="http://www.campusbookrentals.com/"><img src="images/bookRentals.jpg" alt="Campus Book Rentals"/></a><p>$30</p>
+											</div>
+											<div class="compareCo">
+												<a href="http://www.bookrenter.com/"><img src="images/bookRenter.jpg" alt="Book Renter"/></a><p>$30</p>
+											</div>
+										</div> <!-- end compare -->
+									</div><!-- end tool tip -->
+									<div class="subtotal"> 
+											<small>Subtotal</small> 
+											<span id="Subtotal0073527114"> $63.3 </span> 
+									</div> 
+								</div> 
+							</div> 
+						</div> 
+				</div>	
+					<div class="footer"> 
+						<p> 
+							<strong>Books</strong> 
+							<span id="totalBooks" > 2</span> 
+						</p> 
+						<p> 
+							<strong>Used</strong> 
+							<span id="totalUsedBooks" > 1</span> 
+						</p> 
+						<p> 
+							<strong>New</strong> 
+							<span id="totalNewBooks" > 1</span> 
+						</p> 
+						<p> 
+							<strong>Total</strong> 
+							
+							<span id="totalPrice"> 63.3 </span> 
+						</p> 
+						<a href="cart" title="Add to Cart" onClick="addToCart();">Add to Cart</a> 
+					</div> 
+				</div> 
+			</div> 
+			
+			<div class="summary"> 
+				<h3>Buyback Summary</h3> 
+				<p> 
+					Total Books <strong id="totalBooks1">2</strong> 
+				</p> 
+				<p> 
+					New Books <strong id="totalNewBooks1">1</strong> 
+				</p> 
+				<p> 
+					Used Books <strong id="totalUsedBooks1">1</strong> 
+				</p> 
+				<div class="footer"> 
+					<small>Total</small> 
+					<strong id="totalPrice1">63.3</strong> 
+					<a href="cart" title="Add to Cart" onClick="addToCart();" >Add to Cart</a> 
+				</div> 
+			</div> 
+			
+			<div style="clear:both;"></div> 
+				
+		</div> 
+			
+		<div class="footer"> 
+	<div class="breadcrumbs"> 
+		<a href="index" title="Homepage">Homepage</a> &raquo Sell Books
+	</div> 
+	<a href="#" title="BookStoreGenie" id="footerLogo">BookStoreGenie</a> 
+	<ul> 
+		<li><a href="/home/about_us">About Us</a></li> 
+		<li><a href="#" title="Sell Books">Sell Books</a></li> 
+		<li><a href="#" title="Buy Books">Buy Books</a></li> 
+		<li><a href="#" title="">Terms of Privacy</a></li> 
+		<li><a href="#" title="">Terms and Conditions</a></li> 
+	</ul> 
+	<div style="clear:both;"></div> 
+</div> 
+ 
+		
+	</div> 
+	
+	<script type="text/javascript">
+// What is $(document).ready ? See: http://flowplayer.org/tools/documentation/basics.html#document_ready
+$(document).ready(function() {
+
+$("#comparePrices").tooltip({ effect: 'slide'});
+});
+</script>
+</body> 
+ 
+ 
+</html> 

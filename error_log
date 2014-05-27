@@ -1,0 +1,150 @@
+[19-Aug-2011 15:12:44] PHP Parse error:  syntax error, unexpected '}' in /home/jteplitz/public_html/sessionTest.php on line 45
+[19-Aug-2011 15:12:58] PHP Fatal error:  Class 'Mail' not found in /home/jteplitz/public_html/sessionTest.php on line 38
+[20-Aug-2011 12:51:13] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 12:51:18] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 12:51:28] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 15:55:22] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 15:56:42] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 16:42:12] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[20-Aug-2011 16:42:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[21-Aug-2011 22:20:09] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[21-Aug-2011 22:20:21] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[21-Aug-2011 22:20:25] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 04:13:42] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/widget.php on line 143
+[22-Aug-2011 11:35:34] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 11:37:17] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 11:38:20] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 11:38:33] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 11:38:36] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 11:39:13] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 15:00:20] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 15:01:26] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 15:02:22] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 18:29:20] PHP Parse error:  syntax error, unexpected T_FUNCTION in /home/jteplitz/public_html/buybackPrice.php on line 25
+[22-Aug-2011 18:30:35] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/checkPrices.php on line 17
+[22-Aug-2011 19:06:38] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:08:44] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:08:58] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:13:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 19:14:08] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 19:14:10] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 19:14:12] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[22-Aug-2011 19:38:03] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:38:54] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:42:15] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[22-Aug-2011 19:47:12] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/jteplitz/public_html/checkPrices.php on line 19
+[23-Aug-2011 00:17:49] PHP Parse error:  syntax error, unexpected ',' in /home/jteplitz/public_html/rentalPrices.php on line 94
+[23-Aug-2011 00:18:07] PHP Fatal error:  Class 'Book' not found in /home/jteplitz/public_html/rentalPrices.php on line 93
+[23-Aug-2011 00:36:31] PHP Parse error:  syntax error, unexpected T_ECHO in /home/jteplitz/public_html/rentalPrices.php on line 97
+[23-Aug-2011 00:45:08] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/indexRental.php on line 5
+[23-Aug-2011 00:45:15] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/indexRental.php on line 5
+[23-Aug-2011 00:45:19] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/indexRental.php on line 5
+[23-Aug-2011 00:45:21] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/indexRental.php on line 5
+[23-Aug-2011 00:48:45] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:48:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:48:52] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:48:55] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:48:57] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:00] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:26] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:28] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:30] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:32] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:49:34] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 7
+[23-Aug-2011 00:50:12] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:3) in /home/jteplitz/public_html/indexRental.php on line 4
+[23-Aug-2011 01:31:49] PHP Fatal error:  Call to a member function getNewPrice() on a non-object in /home/jteplitz/public_html/rentalPrices.php on line 100
+[23-Aug-2011 02:39:29] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/jteplitz/public_html/indexRental.php on line 2
+[23-Aug-2011 02:39:29] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/jteplitz/public_html/indexRental.php:2) in /home/jteplitz/public_html/indexRental.php on line 3
+[23-Aug-2011 13:15:40] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/jteplitz/public_html/widget.php on line 143
+[23-Aug-2011 19:59:01] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 10:02:15] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 10:04:28] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 10:04:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 14:52:02] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 14:53:29] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 14:53:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 14:54:04] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 18:34:12] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 18:34:24] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 18:34:39] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 18:36:15] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 21:08:34] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 21:08:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 21:09:40] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 21:21:48] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[24-Aug-2011 22:32:29] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[24-Aug-2011 23:26:43] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 08:34:57] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 12:20:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[25-Aug-2011 18:22:35] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 18:23:11] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 18:23:17] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 18:28:46] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 18:29:37] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 18:30:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[25-Aug-2011 19:07:15] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[26-Aug-2011 00:35:38] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[26-Aug-2011 16:48:09] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[27-Aug-2011 13:44:06] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[27-Aug-2011 13:44:16] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[27-Aug-2011 13:46:50] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[27-Aug-2011 13:47:06] PHP Fatal error:  Cannot use object of type stdClass as array in /home/jteplitz/public_html/widget.php on line 164
+[27-Aug-2011 16:17:43] PHP Warning:  fopen(/index.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 192
+[27-Aug-2011 16:17:43] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 193
+[27-Aug-2011 16:17:43] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 194
+[27-Aug-2011 16:17:44] PHP Warning:  fopen(/widget.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 199
+[27-Aug-2011 16:17:44] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 200
+[27-Aug-2011 16:17:44] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 201
+[27-Aug-2011 16:17:44] PHP Warning:  fopen(/portal.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 206
+[27-Aug-2011 16:17:44] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 207
+[27-Aug-2011 16:17:44] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 208
+[27-Aug-2011 16:17:44] PHP Warning:  fopen(/.htaccess) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 213
+[27-Aug-2011 16:17:44] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 214
+[27-Aug-2011 16:17:44] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 215
+[27-Aug-2011 16:18:42] PHP Warning:  fopen(/index.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 192
+[27-Aug-2011 16:18:42] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 193
+[27-Aug-2011 16:18:42] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 194
+[27-Aug-2011 16:18:42] PHP Warning:  fopen(/widget.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 199
+[27-Aug-2011 16:18:42] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 200
+[27-Aug-2011 16:18:42] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 201
+[27-Aug-2011 16:18:42] PHP Warning:  fopen(/portal.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 206
+[27-Aug-2011 16:18:42] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 207
+[27-Aug-2011 16:18:42] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 208
+[27-Aug-2011 16:18:42] PHP Warning:  fopen(/.htaccess) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 213
+[27-Aug-2011 16:18:42] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 214
+[27-Aug-2011 16:18:42] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 215
+[27-Aug-2011 16:52:08] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[27-Aug-2011 18:05:06] PHP Warning:  fopen(/index.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 192
+[27-Aug-2011 18:05:06] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 193
+[27-Aug-2011 18:05:06] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 194
+[27-Aug-2011 18:05:06] PHP Warning:  fopen(/widget.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 199
+[27-Aug-2011 18:05:06] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 200
+[27-Aug-2011 18:05:06] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 201
+[27-Aug-2011 18:05:06] PHP Warning:  fopen(/portal.php) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 206
+[27-Aug-2011 18:05:06] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 207
+[27-Aug-2011 18:05:06] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 208
+[27-Aug-2011 18:05:06] PHP Warning:  fopen(/.htaccess) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: Permission denied in /home/jteplitz/public_html/create_organization.php on line 213
+[27-Aug-2011 18:05:06] PHP Warning:  fwrite(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 214
+[27-Aug-2011 18:05:06] PHP Warning:  fclose(): supplied argument is not a valid stream resource in /home/jteplitz/public_html/create_organization.php on line 215
+[28-Aug-2011 17:38:12] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[28-Aug-2011 18:42:26] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[28-Aug-2011 22:14:26] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[29-Aug-2011 14:52:40] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[29-Aug-2011 23:22:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[30-Aug-2011 00:33:00] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[30-Aug-2011 07:04:28] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[30-Aug-2011 23:57:13] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[01-Sep-2011 01:49:41] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[01-Sep-2011 08:02:41] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[01-Sep-2011 16:37:36] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[01-Sep-2011 20:32:30] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[04-Sep-2011 10:55:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[04-Sep-2011 12:10:04] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[04-Sep-2011 13:41:35] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[07-Sep-2011 14:36:58] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[07-Sep-2011 15:38:44] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[07-Sep-2011 19:56:24] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[07-Sep-2011 21:10:56] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[08-Sep-2011 07:23:42] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36
+[08-Sep-2011 16:41:31] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/jteplitz/public_html/transfer.php on line 36

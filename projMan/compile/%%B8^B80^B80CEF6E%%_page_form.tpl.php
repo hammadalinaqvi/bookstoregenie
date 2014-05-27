@@ -1,0 +1,69 @@
+<?php /* Smarty version 2.6.16, created on 2012-07-10 02:11:16
+         compiled from /home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('block', 'wrap', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 2, false),array('block', 'label', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 3, false),array('block', 'editor_field', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 9, false),array('block', 'lang', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 14, false),array('function', 'text_field', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 4, false),array('function', 'attach_files', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 18, false),array('function', 'select_assignees_inline', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 25, false),array('function', 'select_page', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 37, false),array('function', 'select_milestone', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 43, false),array('function', 'select_tags', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 49, false),array('function', 'select_visibility', '/home/books1/public_html/projMan/activecollab/application/modules/pages/views/pages/_page_form.tpl', 55, false),)), $this); ?>
+<div class="form_left_col">
+<?php $this->_tag_stack[] = array('wrap', array('field' => 'name')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+  <?php $this->_tag_stack[] = array('label', array('for' => 'pageName','required' => true)); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Name<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+  <?php echo smarty_function_text_field(array('name' => 'page[name]','value' => $this->_tpl_vars['page_data']['name'],'id' => 'pageName','class' => 'title required validate_minlength 3'), $this);?>
+
+<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+
+<?php $this->_tag_stack[] = array('wrap', array('field' => 'body')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+  <?php $this->_tag_stack[] = array('label', array('for' => 'pageContent','required' => true)); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Content<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+  <?php $this->_tag_stack[] = array('editor_field', array('name' => 'page[body]','id' => 'pageContent','class' => 'validate_callback tiny_value_present','inline_attachments' => $this->_tpl_vars['page_data']['inline_attachments'],'auto_expand' => false)); $_block_repeat=true;smarty_block_editor_field($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start();  echo $this->_tpl_vars['page_data']['body'];  $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_editor_field($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);  $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+
+<?php if ($this->_tpl_vars['active_page']->isNew()): ?>
+  <div class="ctrlHolderContainer">
+    <a href="#" class="ctrlHolderToggler button_add attachments"><?php $this->_tag_stack[] = array('lang', array()); $_block_repeat=true;smarty_block_lang($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Attach Files<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_lang($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>...</a>
+    <div class="strlHolderToggled">
+    <?php $this->_tag_stack[] = array('wrap', array('field' => 'attachments')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+      <?php $this->_tag_stack[] = array('label', array()); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Attachments<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+      <?php echo smarty_function_attach_files(array('max_files' => 5), $this);?>
+
+    <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    </div>
+  </div>
+  
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'notify_users')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <?php $this->_tag_stack[] = array('label', array()); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Notify People<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    <?php echo smarty_function_select_assignees_inline(array('name' => 'notify_users','project' => $this->_tpl_vars['active_project']), $this);?>
+
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);  else: ?>
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'is_minor_revision')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <input type="checkbox" name="page[is_minor_revision]" value="1" id="pageIsMinorRevision" class="auto" <?php if ($this->_tpl_vars['page_data']['is_minor_revision']): ?>checked="checked"<?php endif; ?> /> <?php $this->_tag_stack[] = array('label', array('for' => 'pageIsMinorRevision','class' => 'inline')); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>This is just a minor revision. Don't create a new version and don't notify subscribers about it<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>.
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);  endif; ?>
+</div>
+
+<div class="form_right_col">
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'parent_id')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <?php $this->_tag_stack[] = array('label', array('for' => 'pageParent','required' => true)); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>File Under<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    <?php echo smarty_function_select_page(array('name' => 'page[parent_id]','value' => $this->_tpl_vars['page_data']['parent_id'],'project' => $this->_tpl_vars['active_project'],'id' => 'pageParent','skip' => $this->_tpl_vars['active_page'],'user' => $this->_tpl_vars['logged_user']), $this);?>
+
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+  
+<?php if ($this->_tpl_vars['logged_user']->canSeeMilestones($this->_tpl_vars['active_project'])): ?>
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'milestone_id')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <?php $this->_tag_stack[] = array('label', array('for' => 'pageMilestone')); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Milestone<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    <?php echo smarty_function_select_milestone(array('name' => 'page[milestone_id]','value' => $this->_tpl_vars['page_data']['milestone_id'],'id' => 'pageMilestone','project' => $this->_tpl_vars['active_project']), $this);?>
+
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);  endif; ?>
+  
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'tags')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <?php $this->_tag_stack[] = array('label', array('for' => 'pageTags')); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Tags<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    <?php echo smarty_function_select_tags(array('name' => 'page[tags]','value' => $this->_tpl_vars['page_data']['tags'],'project' => $this->_tpl_vars['active_project'],'id' => 'pageTags'), $this);?>
+
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+  
+<?php if ($this->_tpl_vars['logged_user']->canSeePrivate()): ?>
+  <?php $this->_tag_stack[] = array('wrap', array('field' => 'visibility')); $_block_repeat=true;smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>
+    <?php $this->_tag_stack[] = array('label', array('for' => 'pageVisibility')); $_block_repeat=true;smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], null, $this, $_block_repeat);while ($_block_repeat) { ob_start(); ?>Visibility<?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_label($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack); ?>
+    <?php echo smarty_function_select_visibility(array('name' => "page[visibility]",'value' => $this->_tpl_vars['page_data']['visibility'],'project' => $this->_tpl_vars['active_project'],'short_description' => true), $this);?>
+
+  <?php $_block_content = ob_get_contents(); ob_end_clean(); $_block_repeat=false;echo smarty_block_wrap($this->_tag_stack[count($this->_tag_stack)-1][1], $_block_content, $this, $_block_repeat); }  array_pop($this->_tag_stack);  else: ?>
+  <input type="hidden" name="page[visibility]" value="1">
+<?php endif; ?>
+
+</div>
+
+<div class="clear"></div>

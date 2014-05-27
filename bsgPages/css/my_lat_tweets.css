@@ -1,0 +1,41 @@
+.mylasttweets { width:300px; margin:20px auto; background:url(img/header.png) no-repeat center top; padding:0px 0 0 0; }
+
+.mylasttweets ul { /*border:3px solid #a5dde8;*/ background:#fff; margin:0; padding-top:1px; }
+
+.mylasttweets li { font-family:Arial, Helvetica, sans-serif; clear:both; text-align:left; font-size:11px; line-height:16px; padding:10px; border-bottom:1px solid #fff; background:#eafbfe; }
+
+#twitter_content { font-family:Arial, Helvetica, sans-serif; font-size:11px; }
+
+.mylasttweets li:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+li { *zoom: 1; }
+
+.mylasttweets li:hover { background:#a5dde8; cursor:default; }
+
+.mylasttweets a {text-decoration:none;cursor:pointer;}
+
+.mylasttweets a:hover {text-decoration:underline;}
+
+.mylasttweets cite { font-weight:bold; font-style:normal; color:#514e40; }
+
+.mylasttweets cite a { color:#514e40; }
+
+.mylasttweets span { color:#514e40; }
+
+.mylasttweets span a { color:#ccab17; font-weight:bold; }
+
+.mylasttweets input {background: transparent url('http://twitter.com/favicon.ico') 0 50% no-repeat; text-indent:18px; width:100%;border:1px solid #ccc;}
+
+.mylasttweets p { font-size: 11px; margin: 0 0 0 53px; display:block; color:#555; }
+
+.mylasttweets p a { color:#444; }
+
+.mylasttweets p:after {clear:both; display:block; height:0; visibility:hidden; }
+
+.mylasttweets img {margin:0 10px 10px 0; height:36px; width:36px;border:2px solid #a5dde8; }
+
+.mylasttweets img:hover {border:2px solid #fff;}
+
+.mylasttweets .hidden { display:none; }
+
+.mylasttweets p:after { clear:both; display:block; height:0; visibility:hidden; }
